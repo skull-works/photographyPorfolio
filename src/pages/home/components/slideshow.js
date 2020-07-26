@@ -8,7 +8,7 @@ import 'react-slideshow-image/dist/styles.css'
 const SlideShow = () => {
     const slideImages = [
        'https://expertphotography.com/wp-content/uploads/2011/11/photography-beginners-image1.jpg',
-       'https://lh3.googleusercontent.com/proxy/hI2Txp3HMbG1iAd_a5nFxIV1SssIgQ86VScg8HvAdieFNUuGZ95N5eq0om0sEpfdLONZi2QjpmV74H-ar9XpFW9HUZ_S9EUtHQUtv4DiVkm7k8PoIkG2ViyFMbriEhvy-TkxL8QyX-pjdBrSNflFhEOMZrWxRNAqxoJ_KXW4G046',
+       'https://post.healthline.com/wp-content/uploads/2019/05/Dancing_Dance_Female_Color-1200x628-Facebook.jpg',
        'https://cdn.pixabay.com/photo/2016/12/23/12/40/night-1927265__340.jpg'
     ]
     const slideShowProperties = {

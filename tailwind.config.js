@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        'xs': '400px'
+        xs: '400px'
       },
       spacing: {
         '76': '20rem',
@@ -32,6 +32,10 @@ module.exports = {
         '70vh': '70vh',
         '80vh': '80vh',
         '90vh': '90vh',
+        '100vh': '100vh',
+        '110vh': '110vh',
+        '120vh': '120vh',
+        '130vh': '130vh',
       },
       fontFamily: {
         Cinzel: ['Cinzel'],

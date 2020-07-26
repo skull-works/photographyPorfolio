@@ -1,0 +1,37 @@
+nav{
+    transition:1s ease;
+    animation: show;
+    animation-duration: 0.7s;
+}
+
+
+#item1{
+    transition:0.5s ease;
+    animation: fade;
+    animation-duration: 4s;
+}
+#item2{
+    transition:1s ease;
+    animation: fade;
+    animation-duration: 5s;
+}
+#item3{
+    transition:0.5s ease;
+    animation: fade;
+    animation-duration: 6s
+}
+#item4{
+    transition:0.5s ease;
+    animation: fade;
+    animation-duration: 7s;
+} 
+
+@keyframes fade{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+}
+
+@keyframes show{
+    0% {margin-right: -30vh;}
+    50% {margin-right:0;}
+}

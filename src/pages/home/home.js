@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="w-hull flex flex-wrap justify-center content-center">
                     <div className="w-9/12 sm:w-64 xl:w-88 h-full flex flex-col justify-center">
                         <div className="lg:pt-40 mx-auto">
-                            <img className="object-contain" src={require("../../images/img1.svg")} alt="logo" />
+                            <img className="object-contain" src={require("../../images/LOGO.png")} alt="logo" />
                         </div>
                         <div className="mt-12 mx-auto">
                             <div>
