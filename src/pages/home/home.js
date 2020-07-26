@@ -9,15 +9,15 @@ import Footer from './components/footer';
 const Home = () => {
     return(
         <>  
-            <header>
+        <header>
                 <div className="w-hull flex flex-wrap justify-center content-center">
                     <div className="w-9/12 sm:w-64 xl:w-88 h-full flex flex-col justify-center">
-                        <div className="lg:pt-40 mx-auto">
+                        <div className="lg:pt-20 mx-auto">
                             <img className="object-contain" src={require("../../images/LOGO.png")} alt="logo" />
                         </div>
                         <div className="mt-12 mx-auto">
                             <div>
-                                <h1 className="font-Cinzel font-bold text-3xl sm:text-lg lg:text-4xl xl:text-5xl">HINGA :</h1>
+                                <h1 className="font-Cinzel font-bold text-3xl sm:text-lg lg:text-4xl xl:text-5xl ">HINGA :</h1>
                             </div>
                             <div className="pt-5">
                                 <h2 className="font-Cinzel font-semibold text-sm sm:text-sm xl:text-lg">A Virtual Multimedia Exhibit</h2>
