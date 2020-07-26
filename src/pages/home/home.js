@@ -17,7 +17,7 @@ const Home = () => {
                         </div>
                         <div className="mt-5 mx-auto">
                             <div>
-                                <h1 className="font-Cinzel font-bold text-2xl sm:text-lg lg:text-3xl xl:text-4xl ">HINGA :</h1>
+                                <h1 className="font-Cinzel font-bold text-2xl sm:text-lg lg:text-3xl xl:text-4xl ">HINGA :</h1> 
                             </div>
                             <div className="pt-5">
                                 <h2 className="font-Cinzel font-semibold text-xs sm:text-sm">A Virtual Multimedia Exhibit</h2>
