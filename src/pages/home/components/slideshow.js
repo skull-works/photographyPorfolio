@@ -25,10 +25,10 @@ const SlideShow = () => {
                 <div className="each-slide relative pt-30vh xs:pt-50vh md:pt-46vh  xl:pt-60vh">
                     <img className="absolute top-0 object-cover w-full h-full" src={slideImages[0]} alt="slide1"/>
                 </div>
-                <div className="each-slide relative pt-30vh xs:pt-50vh md:pt-46vh xl:pt-60vh">
+                <div className="each-slide relative pt-30vh xs:pt-50vh md:pt-46vh xl:pt-60vh ">
                      <img className="absolute top-0 object-cover w-full h-full" src={slideImages[1]}alt="slide2"/>
                 </div>
-                <div className="each-slide relative pt-30vh xs:pt-50vh md:pt-46vh xl:pt-60vh">
+                <div className="each-slide relative pt-30vh xs:pt-50vh md:pt-46vh xl:pt-60vh ">
                     <img className="absolute top-0 object-cover w-full h-full" src={slideImages[2]} alt="slide3"/>
                 </div>
             </Slide>

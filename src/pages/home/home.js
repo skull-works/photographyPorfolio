@@ -11,19 +11,19 @@ const Home = () => {
         <>  
         <header>
                 <div className="w-hull flex flex-wrap justify-center content-center">
-                    <div className="w-9/12 sm:w-64 xl:w-88 h-full flex flex-col justify-center">
-                        <div className="lg:pt-20 mx-auto">
+                    <div className="w-8/12 sm:w-64 xl:w-56 h-full flex flex-col justify-center">
+                        <div className="pt-16 sm:pt-0 lg:pt-20 mx-auto">
                             <img className="object-contain" src={require("../../images/LOGO.png")} alt="logo" />
                         </div>
-                        <div className="mt-12 mx-auto">
+                        <div className="mt-5 mx-auto">
                             <div>
-                                <h1 className="font-Cinzel font-bold text-3xl sm:text-lg lg:text-4xl xl:text-5xl ">HINGA :</h1>
+                                <h1 className="font-Cinzel font-bold text-2xl sm:text-lg lg:text-3xl xl:text-4xl ">HINGA :</h1>
                             </div>
                             <div className="pt-5">
-                                <h2 className="font-Cinzel font-semibold text-sm sm:text-sm xl:text-lg">A Virtual Multimedia Exhibit</h2>
+                                <h2 className="font-Cinzel font-semibold text-xs sm:text-sm">A Virtual Multimedia Exhibit</h2>
                             </div>
-                            <div className="pt-2 pb-16 lg:pb-64 font-Raleway font-normal text-xs xl:text-lg">
-                                <p>Gualbertsan Productions is a multimedia production team of six (6) art students from Asia Pacific College with various skills in art and design, 
+                            <div className="pt-2 pb-16 lg:pb-64 font-Raleway font-normal text-xs">
+                                <p className="text-justify">Gualbertsan Productions is a multimedia production team of six (6) art students from Asia Pacific College with various skills in art and design, 
                                    collaborating to create a unique visual space that will offer a glimpse of coping mechanism pieces through art. 
                                    Everything that surrounds us is comprised of things that are beyond our first glance, our initial understandings, and our generalizations.</p>
                             </div>

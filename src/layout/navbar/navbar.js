@@ -8,9 +8,9 @@ const Navbar = () => {
         <div>
             <div className="fixed top-0 right-0 pt-5 pr-5 z-30">
                 <button className="focus:outline-none" onClick={toggleShowNav}>
-                    {showNav? <svg className="fill-current text-gray-600 w-5 h-5 md:w-8 md:h-8" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    {showNav? <svg className="fill-current text-gray-600 w-5 h-5 md:w-4 md:h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                               <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"/></svg>
-                            :<svg className="fill-current text-gray-600  w-5 h-5 md:w-8 md:h-8" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                            :<svg className="fill-current text-gray-600  w-5 h-5 md:w-5 md:h-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
                     }
                 </button>
