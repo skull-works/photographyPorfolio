@@ -6,13 +6,18 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-slideshow-image": "^2.0.2",
-    "tailwindcss": "^1.5.2"
+    "tailwindcss": "^1.5.2",
+    "yargs-parser": "^18.1.3"
   },
+  "homepage": "https://mabutalid.github.io/photographyPorfolio",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "tailwindcss build tailwindcss/styles.css -o public/styles.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
