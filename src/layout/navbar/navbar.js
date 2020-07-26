@@ -16,7 +16,7 @@ const Navbar = () => {
                 </button>
             </div>
             <nav className={showNav?"active fixed right-0 z-20 shadow-inner bg-gray-200":"hidden"}>
-                <div className="w-full md:px-10 lg:px-32 h-100vh flex flex-wrap content-center leading-10">
+                <div className="w-full md:px-10 lg:px-16 h-100vh flex flex-wrap content-center leading-10">
                     <ul className="text-xs lg:text-md xl:text-lg font-Raleway">
                         <li>
                             <div className="w-6/12 md:w-32 xl:w-48 mt-20 mx-auto">
