@@ -1,13 +1,11 @@
 import React from 'react';
-import Home from './pages/home/home';
-import Navbar from './layout/navbar/navbar';
+import Routes from './routes/routes';
 
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
+      <Routes />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useReducer } from 'react';
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -23,10 +24,10 @@ const Navbar = () => {
                                 <img className="object-contain" src={require('../../images/LOGO.png')} alt="logo2" />
                             </div>
                         </li>
-                        <li id="item1" className={showNav?' block text-center cursor-pointer hover:text-gray-600':'hidden'}>GUALBERTSAN PRODUCTIONS</li>
+                        <Link to="/" id="item1" className={showNav?' block text-center cursor-pointer hover:text-gray-600':'hidden'}>GUALBERTSAN PRODUCTIONS</Link>
                         <li id="item2" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>ARTIST</li>
                         <li id="item3" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>WORKS</li>
-                        <li id="item4" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>CONTACT</li>
+                        <Link to="/contact" id="item4" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>CONTACT</Link>
                     </ul>
                 </div>
             </nav>

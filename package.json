@@ -10,6 +10,7 @@
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-slideshow-image": "^2.0.2",
     "tailwindcss": "^1.5.2",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "build-css": "tailwindcss build tailwindcss/styles.css -o public/styles.css",
-    "build-deploy": "npm run build && aws s3 sync ./build s3://www.gualbertsansual.com",
+    "deploy": "npm run build && netlify deploy --prod",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
