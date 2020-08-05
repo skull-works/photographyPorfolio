@@ -24,10 +24,10 @@ const Navbar = () => {
                                 <img className="object-contain" src={require('../../images/LOGO.png')} alt="logo2" />
                             </div>
                         </li>
-                        <Link to="/" id="item1" className={showNav?' block text-center cursor-pointer hover:text-gray-600':'hidden'}>GUALBERTSAN PRODUCTIONS</Link>
+                        <Link to="/" id="item1" className={showNav?' block text-center cursor-pointer hover:text-gray-600':'hidden'} onClick={toggleShowNav}>GUALBERTSAN PRODUCTIONS</Link>
                         <li id="item2" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>ARTIST</li>
                         <li id="item3" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>WORKS</li>
-                        <Link to="/contact" id="item4" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>CONTACT</Link>
+                        <Link to="/contact" id="item4" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'} onClick={toggleShowNav}>CONTACT</Link>
                     </ul>
                 </div>
             </nav>

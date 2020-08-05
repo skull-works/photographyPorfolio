@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-const Footer = () => {
+const Footer = ({marginTop}) => {
     return (
         <footer>
-            <div className="w-4/12 mt-20 sm:w-32 xl:w-48 sm:mt-56 mx-auto">
-                    <img className="object-contain" src={require('../../../images/LOGO.png')} alt="logo2" />
+            <div className={`w-4/12 mt-20 sm:w-32 xl:w-48 sm:${marginTop} mx-auto`}>
+                    <img className="object-contain" src={require('../../images/LOGO2.png')} alt="logo2" />
             </div>
             <div className="pt-10 pb-10 lg:pt-12 lg:pb-20 flex flex-col">
                <div className="flex flex-row justify-center">
@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="text-center lg:w-4/12  pt-8 text-xs text-gray-500 mx-auto">
-                    <p>2020 <span className="text-md">©</span> Gualbert Sual. All rights reserved.</p>
+                    <p>2020 <span className="text-md">©</span> Gualbertsan Sual. All rights reserved.</p>
                     <p>Site by Marco Butalid</p>
                 </div>
             </div>

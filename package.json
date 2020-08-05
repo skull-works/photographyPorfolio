@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build-css": "tailwindcss build tailwindcss/styles.css -o public/styles.css",
-    "deploy": "npm run build && netlify deploy --prod",
+    "deploy": "npm run build && netlify deploy --dir=./build --prod",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
