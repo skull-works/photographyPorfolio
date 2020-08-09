@@ -14,7 +14,7 @@ const Section4 = () => {
             </div>
             <div className="relative pt-40vh sm:py-60vh md:pt-70vh lg:w-11/12 lg:mx-auto">
                 <img className="absolute top-0 object-cover w-full h-full" 
-                     src="https://i.pinimg.com/originals/72/83/4b/72834b025511a0b6d39e0a5f5fa467a1.jpg"
+                     src={require("../../../images/4 big.jpg")}
                      alt="sample" />
             </div>
             {/* part 2 */}
@@ -29,7 +29,7 @@ const Section4 = () => {
             {/* pt-30vh xs:py-40vh sm:py-60vh md:pt-80vh lg:py-10vh */}
             <div className="relative pt-40vh sm:py-60vh md:pt-70vh lg:w-11/12 lg:mx-auto bg-red-400">
                  <img className="absolute top-0 object-cover w-full h-full" 
-                     src="https://images.unsplash.com/photo-1519925610903-381054cc2a1c?ixlib=rb-1.2.1&w=1000&q=80"
+                     src={require("../../../images/5 big.jpg")}
                      alt="sample" />
             </div>
         

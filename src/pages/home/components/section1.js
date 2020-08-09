@@ -1,28 +1,33 @@
 import React from 'react';
-
+import './styles.css';
 
 const Section1 = () => {
     return(
         <section>
-                <div className="grid grid-cols-3 grid-rows-2 gap-4">
-                        <div className="relative pt-24 sm:pt-48 md:pt-56 lg:pt-64 xl:pt-100">
-                                <img className=" absolute top-0 left-0 object-cover w-full h-full" src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sample"/>
+                <div className="square-container sm:w-11/12 mx-auto">
+                        <div className="flex flex-row justify-evenly pb-12">
+                                <div className="square">
+                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require("../../../images/BNWEloiIgni.jpg")} alt="sample"/>
+                                </div>
+                                <div className="square">
+                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require("../../../images/BNWJayLacdao.jpg")} alt="sample"/>
+                                </div>
+                                <div className="square">
+                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require("../../../images/BNWMiguelMonasterial.jpg")} alt="sample"/>
+                                </div>
                         </div>
-                        <div className="relative bg-gray-500">
-                                <img className=" absolute top-0 left-0 object-cover w-full h-full" src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sample"/>
+                        <div className="flex flex-row justify-evenly">
+                                <div className="square">
+                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require("../../../images/BNWPatPangilinan.jpg")} alt="sample"/>
+                                </div>
+                                <div className="square">
+                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require("../../../images/BNWGualbertsanSual.jpg")} alt="sample"/>
+                                </div>
+                                <div className="square">
+                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require("../../../images/BNWClarissaLorenzo.jpg")} alt="sample"/>
+                                </div>
                         </div>
-                        <div className="relative bg-gray-500">
-                                <img className=" absolute top-0 left-0 object-cover w-full h-full" src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sample"/>
-                        </div>
-                        <div className="relative bg-gray-500">
-                                <img className=" absolute top-0 left-0 object-cover w-full h-full" src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sample"/>
-                        </div>
-                        <div className="relative bg-gray-500">
-                                <img className=" absolute top-0 left-0 object-cover w-full h-full" src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sample"/>
-                        </div>
-                        <div className="relative bg-gray-500">
-                                <img className=" absolute top-0 left-0 object-cover w-full h-full" src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="sample"/>
-                        </div>
+                        
                 </div>
         </section>
     )

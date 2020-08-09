@@ -7,9 +7,10 @@ import 'react-slideshow-image/dist/styles.css'
 
 const SlideShow = () => {
     const slideImages = [
-       'https://expertphotography.com/wp-content/uploads/2011/11/photography-beginners-image1.jpg',
-       'https://post.healthline.com/wp-content/uploads/2019/05/Dancing_Dance_Female_Color-1200x628-Facebook.jpg',
-       'https://cdn.pixabay.com/photo/2016/12/23/12/40/night-1927265__340.jpg'
+       require("../../../images/A.jpg"),
+       require("../../../images/B.jpg"),
+       require("../../../images/C.jpg"),
+       require("../../../images/D.jpg")
     ]
     const slideShowProperties = {
         duration: 5000,
@@ -30,6 +31,9 @@ const SlideShow = () => {
                 </div>
                 <div className="each-slide relative pt-30vh xs:pt-50vh md:pt-46vh xl:pt-60vh ">
                     <img className="absolute top-0 object-cover w-full h-full" src={slideImages[2]} alt="slide3"/>
+                </div>
+                <div className="each-slide relative pt-30vh xs:pt-50vh md:pt-46vh xl:pt-60vh ">
+                    <img className="absolute top-0 object-cover w-full h-full" src={slideImages[3]} alt="slide4"/>
                 </div>
             </Slide>
       </div>

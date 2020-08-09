@@ -1,0 +1,10 @@
+.square{
+    width:30%;
+    position: relative;
+}
+
+.square::after{
+    content: "";
+    display: block;
+    padding-top: 92%;
+}
