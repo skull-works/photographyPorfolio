@@ -5,8 +5,8 @@ const Section4 = () => {
     return(
         <section >
             <div className="w-10/12 md:w-8/12 lg:w-5/12 xl:w-4/12 mx-auto py-16 lg:pb-24 text-center">
-                <p className="font-Raleway italic text-sm lg:text-lg text-center text-gray-500 ">
-                    The artists behind the scene worked day and night for several weeks to put this exhibit together. 
+                <p className="font-Raleway text-sm lg:text-lg text-center text-gray-500 ">
+                    The artists <span className="italic">behind the scene</span> worked day and night for several weeks to put this exhibit together. 
                     Caught in between the struggles brought by the pandemic, the team had to do every work virtually, 
                     from meetings to other discussions vital to the success of ‘Hinga.’ 
                 </p>
@@ -18,7 +18,7 @@ const Section4 = () => {
             </div>
             {/* part 2 */}
             <div className="w-10/12 md:w-8/12 lg:w-5/12 xl:w-4/12 mx-auto py-16 lg:pb-24 text-center">
-                <p className="font-Raleway italic text-sm lg:text-lg text-center text-gray-500 ">
+                <p className="font-Raleway text-sm lg:text-lg text-center text-gray-500 ">
                 As individual artists, each of them had to work tirelessly to meet strict deadlines. 
                 Their methods differentiated them from one another—which made every artwork unique. 
                 But despite their differences, they ensured that they achieve their one goal: 

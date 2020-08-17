@@ -35,7 +35,7 @@ const Contact = () => {
                     <div className="flex flex-col w-10/12 md:w-5/12 lg:w-3/12 h-full mx-auto">
                         <h1 className="font-Cinzel text-lg md:text-2xl">Contact Information</h1>
                         <div className="text-md md:text-lg font-Raleway mt-2"><i className="fa fa fa-compass   pr-2" aria-hidden="true"></i> Makati Philippines</div>
-                        <div className="text-md md:text-lg font-Raleway mt-4"><i className="fa fa fa-envelope  pr-1" aria-hidden="true"></i> email@gualbertsansual.com</div>
+                        <div className="text-md md:text-lg font-Raleway mt-4"><i className="fa fa fa-envelope  pr-1" aria-hidden="true"></i> mail@gualbertsansual.com</div>
                         <div className="text-md md:text-lg font-Raleway mt-4"><i className="fa fa-phone-square pr-1" aria-hidden="true"></i> +63(927)075-2827</div>
                     </div>
                 </div>
