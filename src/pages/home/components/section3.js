@@ -6,11 +6,10 @@ const Section3 = () => {
     const [img2, setImg2] = useState(null);
     const [img3, setImg3] = useState(null);
     useEffect(() => {
-        console.log('UseEffect');
-        getImage('1 small', setImg1,'BehindScenes');
-        getImage('2 small', setImg2,'BehindScenes');
-        getImage('3 small', setImg3,'BehindScenes');
-    },[img1]);
+        getImage('1 small.jpg', setImg1,'BehindScenes');
+        getImage('2 small.jpg', setImg2,'BehindScenes');
+        getImage('3 small.jpg', setImg3,'BehindScenes');
+    },[]);
     return(
         <section>
             <div className="py-16 lg:pb-32 text-center">

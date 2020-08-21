@@ -4,8 +4,8 @@ import React from 'react';
 const Footer = ({marginTop}) => {
     const links = "px-2 flex flex-row justify-center text-sm lg:text-md";
     return (
-        <footer >
-            <div className={`w-4/12 mt-20 sm:w-32 xl:w-48 sm:${marginTop} mx-auto`}>
+        <footer>
+            <div className={`w-4/12 sm:w-32 xl:w-48 ${marginTop} mx-auto`}>
                     <img className="object-contain" src={require('../../images/LOGO2.png')} alt="logo2" />
             </div>
             <div className="pt-10 pb-10 lg:pt-12 lg:pb-20 flex flex-col">

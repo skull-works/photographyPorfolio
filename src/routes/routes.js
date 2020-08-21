@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from '../layout/navbar/navbar';
 import Home from '../pages/home/home';
 import Contact from '../pages/contact/contact';
+import Artist from '../pages/artist/artist';
 
 
 const Routes = () => {
@@ -16,6 +17,8 @@ const Routes = () => {
                 <Route path='/contact'>
                     <Contact />
                 </Route>
+                <Route path='/artist' component={Artist} />
+                <Route path='/artist/:id' component={Artist} />
             </Switch>
         </Router>
        

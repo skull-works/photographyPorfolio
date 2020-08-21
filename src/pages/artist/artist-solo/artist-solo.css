@@ -1,0 +1,154 @@
+.header{
+    font-size: 7vw;
+}
+
+.header2{
+    font-size: 3.5vw;
+}
+
+
+.rectangle{
+    width:100%;
+    position: relative;
+}
+
+.rectangle::after{
+    content: "";
+    display: block;
+    padding-top: 150%;
+}
+
+
+@media only screen and (min-width: 300px){
+    .header{
+        font-size: 38px;
+    }
+    .header2{
+        font-size: 25px;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 140%;
+    }
+}
+
+/* 
+@media only screen and (min-width: 370px){
+    .header{
+        font-size: 10vw;
+    }
+    .header2{
+        font-size: 5vw;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 130%;
+    }
+} */
+
+@media only screen and (min-width: 365px){
+    .header{
+        font-size: 50px;
+    }
+    .header2{
+        font-size: 25px;
+    }
+
+    .rectangle-wrapper{
+        width:50%;
+    }
+    
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 150%;
+    }
+}
+
+@media only screen and (min-width: 410px){
+    .rectangle-wrapper{
+        width:44%;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 150%;
+    }
+}
+
+@media only screen and (min-width: 410px){
+    .rectangle-wrapper{
+        width:38%;
+    }
+}
+
+@media only screen and (min-width: 520px){
+    .rectangle-wrapper{
+        width:32%;
+    }
+}
+
+
+@media only screen and (min-width: 640px){
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 150%;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .rectangle-wrapper{
+        width:65%;
+    }
+    .header{
+        font-size: 9vw;
+    }
+    .header2{
+        font-size: 4vw;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 150%;
+    }
+}
+

@@ -3,14 +3,14 @@ import 'firebase/storage';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAR1DTLbwqOwFp4GMT845MSe7ME5lRp9Yk",
-    authDomain: "albert-profolio.firebaseapp.com",
-    databaseURL: "https://albert-profolio.firebaseio.com",
-    projectId: "albert-profolio",
-    storageBucket: "albert-profolio.appspot.com",
-    messagingSenderId: "949920265382",
-    appId: "1:949920265382:web:9435e23d717c14f0357067",
-    measurementId: "G-FWR93H3ZWG"
+    apiKey: "AIzaSyB4UK2BvQtut_1QahOmnxMdTgcxsmCRz0s",
+    authDomain: "my-website-5215f.firebaseapp.com",
+    databaseURL: "https://my-website-5215f.firebaseio.com",
+    projectId: "my-website-5215f",
+    storageBucket: "my-website-5215f.appspot.com",
+    messagingSenderId: "991559149656",
+    appId: "1:991559149656:web:fac4b85c1d963adcaa422d",
+    measurementId: "G-W23NGVPSKZ"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);

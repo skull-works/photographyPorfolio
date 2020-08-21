@@ -38,7 +38,7 @@ const Home = () => {
                 <Section3 />
                 <Section4 />
             </main>
-            <Footer marginTop='mt-56' />
+            <Footer marginTop='mt-20 sm:mt-56' />
         </>
     )
 }

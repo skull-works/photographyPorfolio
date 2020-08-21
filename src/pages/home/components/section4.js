@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import getImage from '../../../firebase/GetImages';
 
 
 const Section4 = () => {
+    const [img1, setImg1] = useState(null);
+    const [img2, setImg2] = useState(null);
+    useEffect(() => {
+        getImage('4 big.jpg', setImg1,'BigPhotosInMainPage');
+        getImage('5 big.jpg', setImg2,'BigPhotosInMainPage');
+    },[]);
     return(
         <section >
             <div className="w-10/12 md:w-8/12 lg:w-5/12 xl:w-4/12 mx-auto py-16 lg:pb-24 text-center">
@@ -13,7 +20,7 @@ const Section4 = () => {
             </div>
             <div className="relative pt-40vh sm:py-60vh md:pt-70vh lg:w-11/12 lg:mx-auto">
                 <img className="absolute top-0 object-cover w-full h-full" 
-                     src={require("../../../images/4 big.jpg")}
+                     src={img1}
                      alt="sample" />
             </div>
             {/* part 2 */}
@@ -28,7 +35,7 @@ const Section4 = () => {
             {/* pt-30vh xs:py-40vh sm:py-60vh md:pt-80vh lg:py-10vh */}
             <div className="relative pt-40vh sm:py-60vh md:pt-70vh lg:w-11/12 lg:mx-auto bg-red-400">
                  <img className="absolute top-0 object-cover w-full h-full" 
-                     src={require("../../../images/5 big.jpg")}
+                     src={img2}
                      alt="sample" />
             </div>
         

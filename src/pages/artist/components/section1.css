@@ -1,0 +1,16 @@
+.arist-section1-container{
+    height: 100vh;
+    position: relative;
+}
+
+/* w-20vh h-20vh pt-16 sm:pt-0 lg:pt-24 mx-auto relative bg-red-300 */
+.artist-logo{
+  position: absolute;
+  margin: 0;
+  top:50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+}
