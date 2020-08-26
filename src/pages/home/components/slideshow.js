@@ -1,29 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import getImage from '../../../firebase/GetImages';
 
 
 
 
 const SlideShow = () => {
-    const [ img1, setImg1 ] = useState(null);
-    const [ img2, setImg2 ] = useState(null);
-    const [ img3, setImg3 ] = useState(null);
-    const [ img4, setImg4 ] = useState(null);
-
-    useEffect(() => {
-        getImage('A.jpg', setImg1, 'slideShowInMainPage');
-        getImage('B.jpg', setImg2, 'slideShowInMainPage');
-        getImage('C.jpg', setImg3, 'slideShowInMainPage');
-        getImage('D.jpg', setImg4, 'slideShowInMainPage');
-    },[]);
 
     const slideImages = [
-       img1,
-       img2,
-       img3,
-       img4
+       require('../../../images/MainPage/slideShow/A.jpg'),
+       require('../../../images/MainPage/slideShow/B.jpg'),
+       require('../../../images/MainPage/slideShow/C.jpg'),
+       require('../../../images/MainPage/slideShow/D.jpg')
     ]
     const slideShowProperties = {
         duration: 5000,

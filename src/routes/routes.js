@@ -4,7 +4,7 @@ import Navbar from '../layout/navbar/navbar';
 import Home from '../pages/home/home';
 import Contact from '../pages/contact/contact';
 import Artist from '../pages/artist/artist';
-
+import Works from '../pages/works/works';
 
 const Routes = () => {
     return(
@@ -19,6 +19,7 @@ const Routes = () => {
                 </Route>
                 <Route path='/artist' component={Artist} />
                 <Route path='/artist/:id' component={Artist} />
+                <Route path='/VirtualExhibit' component={Works} />
             </Switch>
         </Router>
        
