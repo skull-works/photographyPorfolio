@@ -24,10 +24,10 @@ const Navbar = () => {
                                 <img className="object-contain" src={require('../../images/LOGO.png')} alt="logo2" />
                             </div>
                         </li>
-                        <Link to="/"        id="item1" className={showNav?' block text-center cursor-pointer hover:text-gray-600':'hidden'}      onClick={toggleShowNav}>GUALBERTSAN PRODUCTIONS</Link>
-                        <Link to="/artist"  id="item2" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'} onClick={toggleShowNav}>ARTIST</Link>
-                        <Link to="/"        id="item3" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'}>VIRTUAL EXHIBIT</Link>
-                        <Link to="/contact" id="item4" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'} onClick={toggleShowNav}>CONTACT</Link>
+                        <Link to="/"                id="item1" className={showNav?' block text-center cursor-pointer hover:text-gray-600':'hidden'}      onClick={toggleShowNav}>GUALBERTSAN PRODUCTIONS</Link>
+                        <Link to="/artist"          id="item2" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'} onClick={toggleShowNav}>ARTIST</Link>
+                        <Link to="/VirtualExhibit"  id="item3" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'} onClick={toggleShowNav}>VIRTUAL EXHIBIT</Link>
+                        <Link to="/contact"         id="item4" className={showNav?' block pt-2 text-center cursor-pointer hover:text-gray-600':'hidden'} onClick={toggleShowNav}>CONTACT</Link>
                     </ul>
                 </div>
             </nav>

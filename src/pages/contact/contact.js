@@ -11,7 +11,7 @@ const Contact = () => {
                             <img className="object-contain" src={require("../../images/LOGO2.png")} alt="logo" />
             </div>
             <form name="contact" method="POST" className="mt-10">
-                <p class="hidden">
+                <p className="hidden">
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
                 <input type="hidden" name="form-name" value="contact" />

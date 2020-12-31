@@ -24,7 +24,7 @@ const Section1 = () => {
                                         <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/1Clars.jpg')} alt="sample"/>
                                 </div>
                                 <div className="square">
-                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/Soon.png')} alt="sample"/>
+                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/1Albert.jpg')} alt="sample"/>
                                 </div>
                         </div>
                 </div>

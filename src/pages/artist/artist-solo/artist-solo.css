@@ -2,6 +2,10 @@
     font-size: 7vw;
 }
 
+.headerAlbert{
+    font-size: 4vw;
+}
+
 .header2{
     font-size: 3.5vw;
 }
@@ -22,6 +26,9 @@
 @media only screen and (min-width: 300px){
     .header{
         font-size: 38px;
+    }
+    .headerAlbert{
+        font-size: 30px;
     }
     .header2{
         font-size: 25px;
@@ -63,6 +70,9 @@
 @media only screen and (min-width: 365px){
     .header{
         font-size: 50px;
+    }
+    .headerAlbert{
+        font-size: 35px;
     }
     .header2{
         font-size: 25px;
@@ -135,6 +145,9 @@
     }
     .header{
         font-size: 9vw;
+    }
+    .headerAlbert{
+        font-size: 6vw;
     }
     .header2{
         font-size: 4vw;

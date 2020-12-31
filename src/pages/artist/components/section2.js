@@ -7,6 +7,7 @@ const Section2 = () => {
     return(
         <>
                 <title>Artists</title>
+                {/* ARTIST */}
                 <div className="h-100vh flex flex-col md:flex-row">
                         <div className="h-50vh xss:h-44vh xs:h-40vh  w-10/12 md:w-5/12 mx-auto pt-4 md:pt-24 lg:pt-24 flex flex-wrap justify-center">
                                 <div className="pt-4 xss:pt-0 sm:pt-6 md:pt-0 md:w-8/12 lg:w-7/12 leading-tight">
@@ -44,15 +45,30 @@ const Section2 = () => {
                                                         <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/1Clars.jpg')} alt="sample"/>
                                                 </Link>
                                                 <Link  to="/artist?is=GualbertsanSual" className="square hover:opacity-75 cursor-pointer">
-                                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/Soon.png')} alt="sample"/>
+                                                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/1Albert.jpg')} alt="sample"/>
                                                 </Link>
                                         </div>
                                 </div>
                         </div>
                 </div>
-                <Footer  marginTop='mt-0 xs:mt-24 sm:mt-40 md:mt-0' />
+
+                {/* GUEST PERFORMER */}
+                <div className="flex flex-col sm:flex-row">
+                        <div className="w-full sm:w-4/12 pt-20 sm:pt-0 flex flex-wrap justify-center content-center">
+                                <h1 className="font-Cinzel text-xl xss:text-2xl md:text-2xl leading-none">
+                                        <span className="guestHeader">GUEST</span> <br className="hidden sm:block" />
+                                        <span className="text-2xl xss:text-md md:text-xl lg:text-3xl md:pl-4 lg:pl-6">PERFORMER</span>
+                                </h1>
+                        </div>
+                        <div className="w-full sm:w-8/12 pt-40vh xs:pt-60vh relative">
+                                <img className="absolute top-0 left-0 object-contain w-full h-full" src={require('../../../images/ArtistPhotos/guest.jpg')} alt="sample" />
+                        </div>
+                </div>
+
+                {/* Footer */}
+                <Footer  marginTop='mt-0 xs:mt-24 sm:mt-40 md:mt-24' />
         </>
-        )
+        );
 }
 
 export default Section2;
