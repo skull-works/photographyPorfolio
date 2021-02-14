@@ -16,6 +16,13 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
       },
     extend: {
+      colors: {
+        darkblue: "#333366",
+        mediumred: "#cc6666",
+        lightgreen: "#669999",
+        darkyellow: "cc9966",
+        puregray: "999999",
+      },
       spacing: {
         '76': '20rem',
         '88': '22rem',
