@@ -1,6 +1,14 @@
 module.exports = {
   purge: [],
   theme: {
+    letterSpacing: {
+      wide1em: '1em',
+      wide1_25em: '1.25em',
+      wide2em: '2em',
+      wide2_25em: '2.25em',
+      wide3em: '3em',
+      wide3_25em: '3.25em',
+    },
     screens:{
         'xss': '365px',
         // => @media (min-width: 400x) { ... }

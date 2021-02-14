@@ -1,8 +1,6 @@
 import React from 'react';
-// import Section1 from './components/section1';
-// import Section2 from './components/section2';
-// import Section3 from './components/section3';
-// import Section4 from './components/section4';
+import Navbar from '../../layout/navbar/navbar';
+import logo from '../../images/LOGO_WHITE.png';
 // import Footer from '../../layout/footer/footer';
 
 
@@ -11,26 +9,31 @@ const Home = () => {
         <div className='bg-lightgreen'>  
             <title>Gualbertsan Sual</title>
             <header className='h-12vh'>
-                <nav className='w-11/12 h-full mx-auto relative'>
-                    <ul className='flex flex-row absolute bottom-0'>
-                        <li className='ml-2 px-4 border-r-2 border-gray-300 font-Raleway font-semibold text-gray-300'>
-                            BIO
+                <Navbar />
+            </header>
+            <main className='content h-70vh'>
+                <div className='w-10/12 h-full mx-auto relative flex flex-row'>
+                    <div className='w-10/12 py-32vh'>
+                        <h1 className='text-3xl font-Cinzel font-bold tracking-wide1_25em text-gray-100'>GU<span className='text-red-800'>A</span>LBERTSAN SUAL</h1>
+                    </div>
+                    <div className='w-4/12 h-full flex flex-wrap justify-center items-center'>
+                        <div className='w-3/6'>
+                            <img className="object-contain" src={logo} alt="logo" />
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer className='h-18vh'>
+                <div className='w-10/12 h-full mx-auto'>
+                    <ul className='font-Raleway text-sm text-gray-100 leading-tight'>
+                        <li>
+                            2020 - 2021 <span className="text-md">©</span> Gualbertsan Sual. All rights reserved
                         </li>
-                        <li className='ml-2 px-4 border-r-2 border-gray-300 font-Raleway font-semibold text-gray-300'>
-                            WORKS
-                        </li>
-                        <li className='ml-2 px-4 border-r-2 border-gray-300 font-Raleway font-semibold text-gray-300'>
-                            EXHIBIT
-                        </li>
-                        <li className='ml-2 px-4 border-r-2 border-gray-300 font-Raleway font-semibold text-gray-300'>
-                            CONTACT
+                        <li>
+                            Site by Marco Butalid
                         </li>
                     </ul>
-                </nav>
-            </header>
-            <main className='content h-70vh border-b-4 border-red-300'>
-            </main>
-            <footer className='h-18vh border-t-4 border-green-300'> 
+                </div>
             </footer>
         </div>
     )
