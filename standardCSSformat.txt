@@ -5,4 +5,7 @@ px
 positions
 colors
 borders
-fonts
+fonts size
+font options
+font spacing
+font color
