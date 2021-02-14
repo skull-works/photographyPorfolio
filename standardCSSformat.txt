@@ -1,0 +1,8 @@
+width
+height
+margins
+px
+positions
+colors
+borders
+fonts
