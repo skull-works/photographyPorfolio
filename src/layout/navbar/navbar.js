@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li className='ml-2 pr-4 border-r-2 border-gray-300 font-Raleway font-semibold text-gray-300'>
                     EXHIBIT
                 </li>
-                <li className='ml-2 pr-4 border-r-2 border-gray-300 font-Raleway font-semibold text-gray-300'>
+                <li className='ml-2 pr-4 font-Raleway font-semibold text-gray-300'>
                     CONTACT
                 </li>
             </ul>
