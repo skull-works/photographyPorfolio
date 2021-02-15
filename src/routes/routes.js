@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from '../layout/navbar/navbar';
 import Home from '../pages/home/home';
+import Bio from '../pages/bio/bio';
 import Contact from '../pages/contact/contact';
 import Artist from '../pages/artist/artist';
 import Works from '../pages/works/works';
@@ -16,6 +17,9 @@ const Routes = () => {
                 {/* UNHIDE CONTENT VERSION */}
                 <Route exact path='/'>
                     <Home />
+                </Route>
+                <Route path='/bio'>
+                    <Bio />
                 </Route>
                 <Route path='/contact'>
                     <Contact />

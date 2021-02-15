@@ -24,12 +24,16 @@ module.exports = {
         // => @media (min-width: 1280px) { ... }
       },
     extend: {
+      fontSize: {
+        'atom': '.25rem',
+        'xss': '.50rem',
+      },
       colors: {
         darkblue: "#333366",
         mediumred: "#cc6666",
         lightgreen: "#669999",
-        darkyellow: "cc9966",
-        puregray: "999999",
+        darkyellow: "#cc9966",
+        puregray: "#999999",
       },
       spacing: {
         '76': '20rem',
@@ -52,6 +56,7 @@ module.exports = {
         '30vh': '30vh',
         '32vh': '32vh',
         '34vh': '34vh',
+        '35vh': '35vh',
         '36vh': '36vh',
         '38vh': '38vh',
         '40vh': '40vh',
