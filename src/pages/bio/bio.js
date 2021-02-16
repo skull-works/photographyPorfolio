@@ -13,13 +13,13 @@ const Bio = () => {
             <header className='h-12vh'>
                 <Navbar showGual={true} />
             </header>
-            <main className='content text-gray-200'>
+            <main className='content text-gray-200 text-xs sm:text-base font-Raleway'>
                 <div className='w-full xs:w-10/12 xs:mx-auto mt-10 flex flex-col md:flex-row'>
                     <div className='w-6/12 pt-40vh xs:pt-60vh md:pt-80vh mt-10 md:mt-0 mx-auto relative'>
                         <img className='absolute top-0 left-0 object-contain w-full h-full' src={Albert1} alt="albert1" />
                     </div>
                     <div className='w-10/12 xs:w-full md:w-6/12 mt-10 md:mt-0 mx-auto relative'>
-                        <p className='ml-4 md:mt-10vh lg:mt-4 text-xs lg:text-sm font-Cinzel'>
+                        <p className='sm:ml-4 md:mt-10vh lg:mt-4'>
                             Passion is something that you love doing. It is liking
                             what you do and liking how you do it. It differentiates
                             between work and career. Working hard for something
@@ -31,7 +31,7 @@ const Bio = () => {
                         <br />
                         {/* 2nd paragraph */}
                         {/* md show */}
-                        <p className='ml-4 text-xs lg:text-sm hidden md:block lg:hidden font-Cinzel'>
+                        <p className='sm:ml-4 hidden md:block lg:hidden'>
                             Gualbertsan or “Albert” is a student of Multimedia Arts
                             with a specialization in Filmmaking at Asia Pacific College.
                             He is a photojournalist for the RAMpage which is the
@@ -40,7 +40,7 @@ const Bio = () => {
                             Computer Institute.
                         </p>
                         {/* lg show */}
-                        <p className='ml-4 text-xs lg:text-sm hidden lg:block font-Cinzel'>
+                        <p className='sm:ml-4 hidden lg:block'>
                             Gualbertsan or “Albert” is a student of Multimedia Arts
                             with a specialization in Filmmaking at Asia Pacific College.
                             He is a photojournalist for the RAMpage which is the
@@ -53,7 +53,7 @@ const Bio = () => {
                             Technology from Informatics International College.
                         </p>
                         {/* sm show */}
-                        <p className='ml-4 text-xs lg:text-sm md:hidden font-Cinzel'>
+                        <p className='sm:ml-4 md:hidden'>
                             Gualbertsan or “Albert” is a student of Multimedia Arts
                             with a specialization in Filmmaking at Asia Pacific College.
                             He is a photojournalist for the RAMpage which is the
@@ -76,7 +76,7 @@ const Bio = () => {
                     <div className='w-10/12 xs:w-full mt-4 mx-auto relative'>
                         {/* 2nd paragraph */}
                         {/* md show */}
-                        <p className='text-xs hidden md:block lg:hidden font-Cinzel'>
+                        <p className='hidden md:block lg:hidden'>
                             In 2018, he was part of RESBAK-
                             filmmakers of the University of the Philippines in one of
                             their events. He also graduated with honors and a
@@ -89,7 +89,7 @@ const Bio = () => {
                             conducted three art seminars for the youth in 2017.
                         </p>
                         {/* lg show */}
-                        <p className='text-xs hidden lg:block font-Cinzel'>
+                        <p className='hidden lg:block'>
                             He has worked over a dozen film collections throughout his
                             career and directed several short films at Asia Pacific
                             College just like “Kwaderno,” a film about Education, which
@@ -97,7 +97,7 @@ const Bio = () => {
                             conducted three art seminars for the youth in 2017.
                         </p>
                         <br />
-                        <p className='text-xs font-Cinzel'>
+                        <p>
                             Before becoming a student of APC, Gualbertsan previously worked as a call center agent during the first half of 2017.
                             He was employed in a well-known company and was earning well. However, it was also during this time when he felt so
                             much dullness and dissatisfaction in his life. “I wasn’t given a chance to live with what I felt I deserved; I was stuck in
@@ -115,7 +115,7 @@ const Bio = () => {
                             <img className='absolute top-0 right-0 object-contain sm:object-contain w-full h-full' src={Albert2} alt="albert1" />
                         </div>
                         <div className='w-10/12 xs:w-full lg:w-8/12 mt-4 md:mt-10 mx-auto relative'>
-                            <p className='text-xs font-Cinzel'>
+                            <p>
                                 Since 2012, he has been certain about what he aspires to do
                                 in life–that is to create films and become a great filmmaker.
                                 The Filipino screenwriter and director, Raz Dela Torre,
@@ -129,7 +129,7 @@ const Bio = () => {
                                 a film.
                             </p>
                             <br />
-                            <p className='text-xs font-Cinzel'>
+                            <p>
                                 He is fond of creating short clips about what he feels.
                                 He uses his own emotions in relaying the message that he
                                 wants to tell. One of his works was about the sentiments
@@ -142,7 +142,7 @@ const Bio = () => {
                                 laughs and praises from people online.
                             </p>
                             <br />
-                            <p className='text-xs hidden lg:block font-Cinzel'>
+                            <p className='hidden lg:block'>
                                 Apart from creating short clips as a way to express his
                                 sentiments, he also directs films which aim to communicate
                                 stories of significance. One of his recent works, Kwaderno,
@@ -153,14 +153,14 @@ const Bio = () => {
                     </div>
                     <div className='w-10/12 xs:w-full mt-4 mx-auto relative'>
                         <br />
-                        <p className='text-xs lg:hidden font-Cinzel'>
+                        <p className='lg:hidden'>
                             Apart from creating short clips as a way to express his
                             sentiments, he also directs films which aim to communicate
                             stories of significance. One of his recent works, Kwaderno,
                             is a tale of an imaginative child who isn’t fortunate
                             enough to attend school yet strives to find a way to learn.
                         </p>
-                        <p className='text-xs font-Cinzel'>
+                        <p>
                             The film advocates the right of every child to have access to education regardless of their social status. He wants his
                             films to inspire and inform viewers about the prevalent issues in society that are often being talked about. Last July 2019,
                             he was invited to showcase this film during the State of the Youth Address 2019 of the Southern Tagalog Youth Parliament.
@@ -169,7 +169,7 @@ const Bio = () => {
                             personalities, namely Sarah Elago, Bryan Ezon Gonzales, and Samira Gutoc.
                         </p>
                         <br />
-                        <p className='text-xs font-Cinzel'>
+                        <p>
                             He found his passion for weaving stories that are inspired by his circumstances, relationships, and the people around him.
                             “I vent my feelings out through film and tell myself that everything will be alright,” he said. He finds peace and comfort
                             whenever he expresses himself through his chosen craft. Truly, it is important to find an avenue to share and express oneself.
@@ -177,7 +177,7 @@ const Bio = () => {
                             captivating the souls of his audience.
                         </p>
                         <br />
-                        <p className='text-xs font-Cinzel'>
+                        <p>
                             The story of this talented young man vividly reflects the values of courage and determination. Gualbertsan braved to
                             follow and continue his long-time dream and persevered to slowly build a name for himself. He was asked this question:
                             “What does it feel like to become a filmmaker?” He said, “It feels as if I can do whatever I want.” Following the trail of his passion
@@ -185,7 +185,7 @@ const Bio = () => {
                             heart desires while connecting to the hearts of others at the same time.
                         </p>
                         <br />
-                        <p className='text-xs font-Cinzel'>
+                        <p>
                             Written by: Sharmaine Joyce Alilin and Kamille Pangantihon
                         </p>
                     </div>

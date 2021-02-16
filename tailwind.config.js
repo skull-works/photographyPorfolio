@@ -27,6 +27,9 @@ module.exports = {
       fontSize: {
         'atom': '.25rem',
         'xss': '.50rem',
+        '7xl': '4.5rem',
+        '8xl': '6rem',
+        '9xl': '8rem',
       },
       colors: {
         darkblue: "#333366",

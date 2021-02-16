@@ -1,51 +1,59 @@
 import React from 'react';
-import Cookies from 'universal-cookie';
-import Footer from '../../layout/footer/footer';
-import './works.css'
+import Navbar from '../../layout/navbar/navbar';    
+import './style.css';
+import { Link } from 'react-router-dom';
+// import Footer from '../../layout/footer/footer';
+
+// Logo or images
+import Film from '../../images/Works/Film.png';
+import Photos from '../../images/Works/Photos.png';
+import SambaliloClicker from '../../images/Works/SambaliloClicker.png';
+import KwadernoClicker from '../../images/Works/KwadernoClicker.png';
+import Pasakit from '../../images/Works/Pasakit.png';
 
 const Works = () => {
-    // https://momento360.com/e/u/8ff1d9bc3c0042eb812b2fa212c36b64?utm_campaign=embed&utm_source=other&heading=238.8192224438199&pitch=-6.098248215908773&field-of-view=85
-    // https://momento360.com/e/u/ee71980e64bd4c9ca6b31d44f9ad6c53?utm_campaign=embed&utm_source=other&heading=-169.40308060252997&pitch=5.746782519409478&field-of-view=25.000000000000004&fbclid=IwAR22wXJchwCk-LrVNM-yT2MDOMLQRSjZwzErAut6RZdryfcq7KaVshkN9us
-    const cookies = new Cookies();
-    cookies.set('SameSite', 'Lax', {path: '/'});
     return (
-        <>
-        <title>Virtual Exhibit</title>
-        <div className="flex flex-wrap justify-center">
-            <div className="w-full flex flex-col justify-center">
-                
-                <div className="w-15vh md:w-20vh mx-auto pt-16">
-                    <img className="" src={require('../../images/LOGO.png')} alt="sample" />
-                </div>
-
-                <div className="w-11/12 mx-auto pt-16 text-center">
-                    <h1 className="font-Cinzel italic text-sm sm:text-xl lg:text-2xl">WELCOME TO HINGA: AN ONLINE MULTIMEDIA ART EXHIBIT</h1>
-                    <p className="font-Cinzel font-semibold text-xs sm:text-sm text-gray-400">To see the artworks in better quality, we recommend that you use a laptop or computer</p>
-                </div>
-
-                <div id='wrapper' className="wrapper2">
-                    <div className="spacewrapper">
-                        <iframe className="w-11/12 mx-auto h-100vh pb-10" title="sample" width='100%' height='100%' 
-                        src='https://roundme.com/embed/BTpRQnAIr8U4EPqA2Gi5'>
-                        </iframe>
+        <div className='w-full h-100vh overflow-y-auto bg-darkblue'>
+            <title>WORKS | Gualbertsan Sual</title>
+            <header className='h-12vh'>
+                <Navbar showGual={true} />
+            </header>
+            <main className='content flex flex-row'>
+                <div className='w-6/12 mt-12 relative flex flex-col md:flex-row border-r-2 border-gray-400'>
+                    <div className='w-full md:w-100vh pt-20vh md:py-40vh relative'>
+                        <img className='object-contain film h-full w-full transform rotate-90 md:rotate-0' src={Film} alt="SambaliloClicker" />
+                    </div>
+                    <div className='w-full h-100vh filmContent'>
+                        <div className='square filmContent mt-2 mx-auto'>
+                            <Link to='/works/sambalilo'>
+                                <img className='object-contain w-full h-full' src={SambaliloClicker} alt="SambaliloClicker" />
+                            </Link>
+                        </div>
+                        <div className='square filmContent mt-8 mx-auto'>
+                            <img className='object-contain w-full h-full' src={KwadernoClicker} alt="KwadernoClicker" />
+                        </div>
+                        <div className='square filmContent mt-8 mx-auto'>
+                            <img className='object-contain w-full h-full' src={Pasakit} alt="KwadernoClicker" />
+                        </div>
                     </div>
                 </div>
-                
-
-                <div id='wrapper' className="wrapper">
-                    <div className="videowrapper">
-                        {/* "https://www.youtube.com/embed/NHP5ZUZkPU4?" */}
-                        <video controls muted autoPlay>
-                            <source src={require('../../videos/kevinVid.mp4')} type="video/mp4" />
-                        </video>
+                <div className='w-6/12 mt-12 relative flex flex-col md:flex-row-reverse'>
+                    <div className='photosContainer  relative'>
+                        <img className='object-contain photos h-full w-full transform rotate-90 md:rotate-180' src={Photos} alt="SambaliloClicker" />
+                    </div>
+                    <div className='w-full h-100vh'>
+                        {/* <div className='square mt-10 mx-auto'>
+                            <Link to='/works/sambalilo'>
+                                <img className='object-contain w-full h-full' src={SambaliloClicker} alt="SambaliloClicker" />
+                            </Link>
+                        </div>
+                        <div className='square mt-10 mx-auto'>
+                            <img className='object-contain w-full h-full' src={KwadernoClicker} alt="KwadernoClicker" />
+                        </div> */}
                     </div>
                 </div>
-                
-                
-            </div>
+            </main>
         </div>
-        <Footer marginTop='mt-10vh sm:mt-20vh' />
-        </>
     )
 }
 
