@@ -25,3 +25,6 @@ debug.log
 
 # Local Netlify folder
 .netlify
+
+# images
+src/images/Works/page1/Presentation.png
