@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import SambaliloPage from '../../../images/Works/page1/sambalilopage.png';
+import PresentationPage from '../../../images/Works/page1/Presentation.png';
 
 const Page1 = () => {
     return ( 
@@ -12,7 +12,7 @@ const Page1 = () => {
             </Link>
             
             {/* temporary */}
-            <img src={SambaliloPage} alt='sambalilo' />
+            <img src={PresentationPage} alt='sambalilo' />
             {/* <header className='h-16vh xs:h-20vh md:h-36vh lg:h-40vh relative bg-red-800'>
                 <h1 className='ml-4 md:ml-16 absolute bottom-0 left-0 text-gray-200 text-4xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-Cinzel font-semibold'>SAMBALILO</h1>
             </header>

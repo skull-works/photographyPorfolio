@@ -1,0 +1,22 @@
+.albertName {
+    font-size: 20px;
+    letter-spacing: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .albertName {
+        font-size: 2rem;
+   }
+}
+
+@media only screen and (min-width: 1024px) {
+    .albertName {
+        font-size: 2.5rem;
+        letter-spacing: 1.5rem;
+   }
+}
+
+
+.red {
+    color:#ff0000;
+}

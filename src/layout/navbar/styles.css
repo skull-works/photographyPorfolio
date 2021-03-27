@@ -1,4 +1,18 @@
-nav{
+.albert-color-100 {
+    color: #F5FAF8;
+  }
+  
+.albert-color-200 {
+color: #998F8F;
+}
+
+.albert-color-300 {
+color: #A70000;
+}
+  
+
+
+/* nav{
     transition:1s ease;
     animation: show;
     animation-duration: 0.7s;
@@ -34,4 +48,4 @@ nav{
 @keyframes show{
     0% {margin-right: -30vh;}
     50% {margin-right:0;}
-}
+} */

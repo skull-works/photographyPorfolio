@@ -2,23 +2,23 @@ import React from 'react';
 import Navbar from '../../layout/navbar/navbar';
 import Albert1 from '../../images/bio/albert1.png';
 import Albert2 from '../../images/bio/albert2.png';
-import Logo from '../../images/LOGO_WHITE.png';
+import Logo from '../../images/LOGO2.png';
 import Icons from '../../images/icons.png';
 
 
 const Bio = () => {
     return ( 
-        <div className='w-full h-100vh overflow-y-auto bg-darkyellow'>
+        <div className='w-full h-100vh overflow-y-auto albert-color-100'>
             <title>BIO | Gualbertsan Sual</title>
             <header className='h-12vh'>
-                <Navbar showGual={true} />
+                <Navbar showGual={true} isRegNav={true} />
             </header>
             <main className='content text-gray-200 text-xs sm:text-base font-Raleway'>
                 <div className='w-full xs:w-10/12 xs:mx-auto mt-10 flex flex-col md:flex-row'>
                     <div className='w-6/12 pt-40vh xs:pt-60vh md:pt-80vh mt-10 md:mt-0 mx-auto relative'>
                         <img className='absolute top-0 left-0 object-contain w-full h-full' src={Albert1} alt="albert1" />
                     </div>
-                    <div className='w-10/12 xs:w-full md:w-6/12 mt-10 md:mt-0 mx-auto relative'>
+                    <div className='w-10/12 xs:w-full md:w-6/12 mt-10 md:mt-0 mx-auto relative albert-color-200'>
                         <p className='sm:ml-4 md:mt-10vh lg:mt-4'>
                             Passion is something that you love doing. It is liking
                             what you do and liking how you do it. It differentiates
@@ -72,7 +72,7 @@ const Bio = () => {
                         </p>
                     </div>
                 </div>
-                <div className='w-full xs:w-10/12 xs:mx-auto'>
+                <div className='w-full xs:w-10/12 xs:mx-auto albert-color-200'>
                     <div className='w-10/12 xs:w-full mt-4 mx-auto relative'>
                         {/* 2nd paragraph */}
                         {/* md show */}
@@ -109,7 +109,7 @@ const Bio = () => {
                 </div>
 
                 {/* 2nd Part */}
-                <div className='w-full xs:w-10/12 xs:mx-auto'>
+                <div className='w-full xs:w-10/12 xs:mx-auto albert-color-200'>
                     <div className='w-full xs:mx-auto mt-10 flex flex-col md:flex-row-reverse'>
                         <div className='w-8/12 lg:w-4/12 pt-40vh xs:pt-50vh lg:pt-70vh mt-10 mx-auto relative'>
                             <img className='absolute top-0 right-0 object-contain sm:object-contain w-full h-full' src={Albert2} alt="albert1" />
@@ -195,11 +195,11 @@ const Bio = () => {
                 <div className='w-16vh mt-8 pt-20vh relative mx-auto'>
                     <img className='absolute top-0 right-0 object-contain sm:object-contain w-full h-full' src={Logo} alt="Logo" />
                 </div>
-                <div className='w-2/12 pt-10 relative mx-auto'>
+                <div className='w-2/12 pt-6 relative mx-auto'>
                     <img className='absolute top-0 right-0 object-contain sm:object-contain w-full h-full' src={Icons} alt="media_icons" />
                 </div>
-                <div className='w-8/12 pt-10 relative mx-auto'>
-                    <ul className='font-Raleway text-sm text-gray-100 text-xss md:text-xs text-center leading-tight'>
+                <div className='w-8/12 pt-4 pb-20 relative mx-auto'>
+                    <ul className='font-Raleway text-sm albert-color-200  text-xss md:text-xs text-center leading-tight'>
                         <li>
                             2020 - 2021 <span className="text-xs">©</span> Gualbertsan Sual. All rights reserved
                         </li>
