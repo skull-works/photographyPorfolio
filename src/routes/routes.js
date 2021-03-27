@@ -6,7 +6,7 @@ import Home from '../pages/home/home';
 
 import Bio from '../pages/bio/bio';
 
-import Works from '../pages/works/works';
+// import Works from '../pages/works/works';
 import Ongoing from '../pages/UnderDevelopmentPage/ongoing';
 import Page1 from '../pages/works/page1/index';
 

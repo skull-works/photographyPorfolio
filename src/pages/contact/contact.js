@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 // Layouts
 import Navbar from '../../layout/navbar/navbar';
-import Footer from '../../layout/footer/footer';
+// import Footer from '../../layout/footer/footer';
 
 // Images or Logo
 import Logo from '../../images/LOGO2.png';
