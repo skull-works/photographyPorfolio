@@ -3,14 +3,13 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 // Page
 import Home from '../pages/home/home';
-
 import Bio from '../pages/bio/bio';
+import Contact from '../pages/contact/contact';
+import Exhibit from '../pages/exhibit/exhibit';
 
 // import Works from '../pages/works/works';
 import Ongoing from '../pages/UnderDevelopmentPage/ongoing';
 import Page1 from '../pages/works/page1/index';
-
-import Contact from '../pages/contact/contact';
 
 import './styles.css';
 
@@ -33,12 +32,17 @@ const Routes = () => {
                     {/* <Works /> */}
                     <Ongoing />
                 </Route>
-                <Route path='/works/sambalilo'>
-                    <Page1 />
+                <Route path='/exhibit'>
+                    <Exhibit />
                 </Route>
                 <Route path='/contact'>
                     <Contact />
                 </Route>
+
+                <Route path='/works/sambalilo'>
+                    <Page1 />
+                </Route>
+                
                 {/* <Route path='/artist' component={Artist} />
                 <Route path='/artist/:id' component={Artist} />
                 <Route path='/VirtualExhibit' component={Works} /> */}
@@ -54,7 +58,6 @@ const Routes = () => {
                 {/* <Route path='/VirtualExhibit'>
                     <Hide />
                 </Route> */}
-                {/* UNHIDE CONTENT VERSION */}
                 
             </Switch>
         </Router>

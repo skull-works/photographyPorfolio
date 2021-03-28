@@ -31,7 +31,7 @@ const RegularNavbar = ({ showGual }) => {
                         WORKS
                     </li>
                 </Link>
-                <Link to='/works'>
+                <Link to='/exhibit'>
                     <li className={links}>
                         EXHIBIT
                     </li>
@@ -74,7 +74,7 @@ const HomeNavbar = () => {
                             WORKS
                         </li>
                     </Link>
-                    <Link to='/works'>
+                    <Link to='/exhibit'>
                         <li className={links}>
                             EXHIBIT
                         </li>

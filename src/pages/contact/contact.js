@@ -41,13 +41,13 @@ const ContactInputFormBelowDesktop = () => {
         <div className="flex flex-col w-10/12 md:w-6/12 lg:w-8/12 h-full mx-auto customAlbertColor200 customFont-codec-light">
             <h1 className="text-lg md:text-2xl">Contact form</h1>
             <label className="mt-4">Your Name: <br /> 
-                <input className="w-full rounded-sm border border-blue-500 focus:outline-none" type="text" name="name" />
+                <input className="w-full rounded-sm border border-blue-500 focus:outline-none customFont-dubai" type="text" name="name" />
             </label>   
             <label className="mt-4">Your Email: <br /> 
-                <input className="w-full rounded-sm border border-blue-500 focus:outline-none" type="text" name="email" />
+                <input className="w-full rounded-sm border border-blue-500 focus:outline-none customFont-dubai" type="text" name="email" />
             </label>   
             <label className="mt-4">Message: <br /> 
-                <textarea className="w-full lg:w-8/12 h-20 rounded-sm border border-blue-500 focus:outline-none" type="text" name="message" />
+                <textarea className="w-full lg:w-8/12 h-20 rounded-sm border border-blue-500 focus:outline-none customFont-dubai" type="text" name="message" />
             </label>   
             <button type="submit" className="mt-6 md:mt-10 w-full text-white rounded-sm hover:bg-blue-400 bg-blue-500">Send</button>
         </div>
