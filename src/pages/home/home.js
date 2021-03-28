@@ -10,13 +10,15 @@ const AlbertNameDesktop = () => {
 
     return (
         <div className='hidden sm:block w-full xs:h-full xs:py-27vh lg:py-32'>
-            <p className='albertName albert-color-200'>gualbertsan <span className='albert-color-300'>sual</span></p>
+            <p className='albertName customAlbertColor200 customFont-codec-light'>gualbertsan <span className='customAlbertColor300'>sual</span></p>
             <div className='h-full mt-2'>
-                <ul className='font-Raleway invisible sm:visible text-xs lg:text-sm albert-color-200 leading-6'>
+                <ul className='invisible sm:visible text-xs lg:text-sm customAlbertColor200 leading-6'>
                     <li>
-                        2020 - 2021 <span className="text-xs">©</span> Gualbertsan Sual. All rights reserved
+                        <span className="customFont-dubai pr-2">2020 - 2021</span> 
+                        <span className="text-xs pr-2">©</span> 
+                        <span className="customFont-codec-light">Gualbertsan Sual. All rights reserved</span>
                     </li>
-                    <li>
+                    <li className="customFont-codec-light">
                         Site by Marco Butalid
                     </li>
                 </ul>
@@ -28,11 +30,11 @@ const AlbertNameDesktop = () => {
 const AlbertNameMobile = () => {
     return (
         <div className='sm:hidden w-full h-35vh py-4'>
-            <ul className="text-4xl text-bold text-right albert-color-200 font-Raleway leading-tight">
+            <ul className="text-4xl text-bold text-right customAlbertColor200 customFont-codec-light leading-tight">
                 <li>gual</li>
                 <li>bert</li>
                 <li>san</li>
-                <li className='albert-color-300'>sual</li>
+                <li className='customAlbertColor300'>sual</li>
             </ul>
         </div>
     )
@@ -46,7 +48,7 @@ const Home = () => {
     };
 
     return(
-        <div className='albert-color-100'>  
+        <div className='customAlbertColor100'>  
             <title>Gualbertsan Sual</title>
             <header className='h-35vh sm:h-20vh'>
                 <Navbar showGual={false} isRegNav={false} />
@@ -63,12 +65,14 @@ const Home = () => {
                 </div>
             </main>
             <footer className='h-18vh'>
-                <div className='w-10/12 h-full mx-auto mt-4 sm:hidden'>
-                    <ul className='font-Raleway text-sm albert-color-200 leading-tight' style={FooterUL}>
+                <div className='w-10/12 h-full mx-auto mt-8 sm:hidden'>
+                    <ul className='text-xs customAlbertColor200 leading-tight' style={FooterUL}>
                         <li>
-                            2020 - 2021 <span className="text-xs">©</span> Gualbertsan Sual. All rights reserved
+                            <span className="customFont-dubai pr-2">2020 - 2021</span> 
+                            <span className="text-xs pr-2">©</span> 
+                            <span className="customFont-codec-light">Gualbertsan Sual. All rights reserved</span>
                         </li>
-                        <li>
+                        <li className="customFont-codec-light">
                             Site by Marco Butalid
                         </li>
                     </ul>

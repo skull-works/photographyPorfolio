@@ -1,11 +1,39 @@
-.albert-color-100 {
+@font-face {
+    src: url('../fonts/codec/Codec-Cold-Bold-trial.ttf');
+    font-family: codec-bold;
+}
+
+@font-face {
+    src: url('../fonts/codec/Codec-Cold-Light-trial.ttf');
+    font-family: codec-light;
+}
+
+@font-face {
+    src: url('../fonts/dubai/Dubai-Regular.ttf');
+    font-family: dubai;
+}
+
+
+.customAlbertColor100 {
     background-color: #F5FAF8;
 }
   
-.albert-color-200 {
+.customAlbertColor200 {
 color: #998F8F;
 }
 
-.albert-color-300 {
+.customAlbertColor300 {
 color: #A70000;
+}
+
+.customFont-codec-bold {
+    font-family: codec-bold;
+}
+
+.customFont-codec-light {
+    font-family: codec-light;
+}
+
+.customFont-dubai {
+    font-family: dubai;
 }
