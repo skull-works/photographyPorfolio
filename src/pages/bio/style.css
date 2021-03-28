@@ -1,0 +1,32 @@
+.customlabelPhoto1 {
+    margin-top: 2px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .customlabelPhoto1 {
+        margin-top: 4px;   
+    }
+}
+
+.customSquare-box{
+    position: relative;
+    width: 50%;
+    max-width: 470px;
+    overflow: hidden;
+    background: none;
+    text-align: center;
+}
+.customSquare-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.customSquare-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+}
