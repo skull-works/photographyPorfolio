@@ -15,15 +15,17 @@ const Bio = () => {
             <header className='h-12vh'>
                 <Navbar showGual={true} isRegNav={true} />
             </header>
-            <main className='content text-gray-200 text-xs sm:text-base font-Raleway'>
+            <main className='content text-gray-200 text-xs sm:text-base customFont-dubai'>
                 <div className='w-full xs:w-10/12 xs:mx-auto mt-10 flex flex-col lg:flex-row'>
                     <div className='customSquare-box mx-auto'>
                         <img className='customSquare-content' src={Albert1} alt="albert1" />
-                        <p className='customlabelPhoto1 customAlbertColor300 text-xs'>Photo by Franz Miguel Alegre</p>
+                        <p className='customlabelPhoto1 customAlbertColor300 text-xs customFont-codec-light'>Photo by Franz Miguel Alegre</p>
                     </div>
                     <div className='w-10/12 xs:w-full lg:w-6/12 mt-10 md:mt-0 mx-auto relative customAlbertColor200'>
-                        <h2 className="font-Cinzel text-xl font-bold md:mt-10vh lg:mt-0 lg:ml-4">GUALBERTSAN</h2>
-                        <h2 className="font-Cinzel text-xl font-bold lg:ml-4">DELA TORRE SUAL</h2>
+                        <div className="leading-none">
+                            <h2 className="font-Cinzel customAlbertName font-bold md:mt-10vh lg:mt-0 lg:ml-4">GUALBERTSAN</h2>
+                            <h2 className="font-Cinzel customAlbertName font-bold lg:ml-4">DELA TORRE SUAL</h2>   
+                        </div>
                         <p className='lg:ml-4 text-justify'>
                             Passion is something that you love doing. It is liking
                             what you do and liking how you do it. It differentiates
@@ -34,7 +36,7 @@ const Bio = () => {
                             that pushed him closer to his dreams in life.
                         </p>
                         <br />
-                        {/* 2nd paragraph */}
+                        {/*---- 2nd paragraph ----*/}
                         {/* md show */}
                         <p className='hidden md:block lg:hidden text-justify'>
                             Gualbertsan or “Albert” is a student of Multimedia Arts
@@ -44,19 +46,33 @@ const Bio = () => {
                             designer, photographer, and former intern at Informatics
                             Computer Institute.
                         </p>
-                        {/* lg show */}
+                        {/* lg/xl show */}
                         <p className='sm:ml-4 hidden lg:block text-justify'>
-                            Gualbertsan or “Albert” is a student of Multimedia Arts
-                            with a specialization in Filmmaking at Asia Pacific College.
-                            He is a photojournalist for the RAMpage which is the
-                            official newsletter of APC. He is a freelance graphic
-                            designer, photographer, and former intern at Informatics
-                            Computer Institute. In 2018, he was part of RESBAK-
-                            filmmakers of the University of the Philippines in one of
-                            their events. He also graduated with honors and a
-                            leadership award. He has a diploma in Multimedia Arts &
-                            Technology from Informatics International College. 
+                            {/* lg show */}
+                            <span className="xl:hidden">
+                                Gualbertsan or “Albert” is a student of Multimedia Arts
+                                with a specialization in Filmmaking at Asia Pacific College.
+                                He is a photojournalist for the RAMpage which is the
+                                official newsletter of APC. He is a freelance graphic
+                                designer, photographer, and former intern at Informatics
+                                Computer Institute. In 2018, he was part of RESBAK-
+                                filmmakers of the University of the Philippines in one of
+                                their events. He also graduated with honors and a
+                                leadership award. He has a diploma in Multimedia Arts &
+                                Technology from Informatics International College. 
+                            </span>
+                            {/* xl show */}
                             <span className="hidden xl:flex">
+                                Gualbertsan or “Albert” is a student of Multimedia Arts
+                                with a specialization in Filmmaking at Asia Pacific College.
+                                He is a photojournalist for the RAMpage which is the
+                                official newsletter of APC. He is a freelance graphic
+                                designer, photographer, and former intern at Informatics
+                                Computer Institute. In 2018, he was part of RESBAK-
+                                filmmakers of the University of the Philippines in one of
+                                their events. He also graduated with honors and a
+                                leadership award. He has a diploma in Multimedia Arts &
+                                Technology from Informatics International College.
                                 He has worked over a dozen film collections throughout his
                                 career and directed several short films at Asia Pacific
                                 College just like “Kwaderno,” a film about Education, which
@@ -86,7 +102,7 @@ const Bio = () => {
                 </div>
                 <div className='w-full xs:w-10/12 xs:mx-auto customAlbertColor200'>
                     <div className='w-10/12 xs:w-full mt-4 mx-auto relative'>
-                        {/* 2nd paragraph */}
+                        {/*---- 3rd paragraph ----*/}
                         {/* md show */}
                         <p className='hidden md:block lg:hidden text-justify'>
                             In 2018, he was part of RESBAK-
@@ -125,7 +141,7 @@ const Bio = () => {
                     <div className='w-full xs:mx-auto mt-10 lg:mt-6 flex flex-col lg:flex-row-reverse'>
                         <div className="customSquare-box mx-auto">
                             <img className='customSquare-content' src={Albert3} alt="albert1" />
-                            <p className='customlabelPhoto1 customAlbertColor300 text-xs'>Photo by Michael Castillo</p>
+                            <p className='customlabelPhoto1 customAlbertColor300 text-xs customFont-codec-light'>Photo by Michael Castillo</p>
                         </div>
                         <div className='w-10/12 xs:w-full lg:w-8/12 mt-4 md:mt-10 lg:mt-0 mx-auto lg:pr-8 relative'>
                             <p className="text-justify">

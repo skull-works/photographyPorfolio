@@ -80,7 +80,7 @@ const Contact = () => {
             </header>
             
             <main className='content lg:w-10/12 lg:mx-auto lg:h-50vh mt-2 lg:mt-0 lg:flex lg:flex-row'>
-                <div className="w-20 sm:w-32 pt-10 sm:pt-0 mx-auto lg:hidden">
+                <div className="w-32 pt-10 sm:pt-0 mx-auto lg:hidden">
                     <img className="object-contain" src={Logo} alt="logo" />
                 </div>
                 <form name="contact" method="POST" className="mt-2 lg:mt-0 lg:w-8/12">
@@ -105,7 +105,7 @@ const Contact = () => {
                 </div>
             </main>
             <footer className="lg:h-38vh">
-                <div className="w-20 sm:w-32 lg:w-24 pt-10 sm:pt-20 lg:pt-0 mx-auto">
+                <div className="w-32 lg:w-24 pt-10 sm:pt-20 lg:pt-0 mx-auto">
                         <img className="object-contain" src={Logo} alt="logo2" />
                 </div>
                 <div className="pt-10 pb-10 lg:pt-4 lg:pb-0 flex flex-col">

@@ -1,12 +1,39 @@
+.customAlbertName {
+    font-size: 20px;
+}
+
 .customlabelPhoto1 {
     margin-top: 2px;
+}
+
+@media only screen and (min-width: 520px) {
+    .customAlbertName {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .customAlbertName {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
     .customlabelPhoto1 {
         margin-top: 4px;   
     }
+
+    .customAlbertName {
+        font-size: 46px;
+    }
 }
+
+@media only screen and (min-width: 1280px) {
+    .customAlbertName {
+        font-size: 4.4vw;
+    }
+}
+
 
 .customSquare-box{
     position: relative;
