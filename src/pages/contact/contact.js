@@ -10,43 +10,43 @@ import Logo from '../../images/LOGO2.png';
 
 const ContactInputFormDesktop = () => {
     return (
-        <div className="w-10/12 md:w-6/12 lg:w-8/12 h-full mx-auto lg:mt-12 lg:flex flex-col customAlbertColor200">
-            <h1 className="font-Cinzel text-lg md:text-2xl ">Contact form</h1>
+        <div className="w-10/12 md:w-6/12 lg:w-8/12 h-full mx-auto lg:mt-12 lg:flex flex-col customAlbertColor200 customFont-codec-light">
+            <h1 className="text-lg md:text-2xl ">Contact form</h1>
             <div className="flex flex-row mt-4 ">
                 <div className='w-6/12'>
-                    <div className="font-Raleway">
+                    <div>
                         <label>Your Name: <br /> 
                             <input className="w-full lg:w-10/12 rounded-sm border border-blue-500 focus:outline-none" type="text" name="name" />
                         </label>
                     </div>
-                    <div className="mt-4 font-Raleway">
+                    <div className="mt-4">
                         <label>Your Email: <br /> 
                             <input className="w-full lg:w-10/12 rounded-sm border border-blue-500 focus:outline-none" type="text" name="email" />
                         </label>  
                     </div> 
                 </div>
                 <div className='w-6/12'>
-                    <label className="mt-4 font-Raleway">Message: <br /> 
+                    <label>Message: <br /> 
                         <textarea className="w-full h-24 rounded-sm border border-blue-500 focus:outline-none" type="text" name="message" />
                     </label> 
                 </div>
             </div>
-            <button type="submit" className="mt-6 w-full text-white rounded-sm hover:bg-blue-400 bg-blue-500">Send</button>
+            <button type="submit" className="mt-6 w-full text-white rounded-sm hover:bg-blue-400 bg-blue-500">submit</button>
         </div>
     )
 }
 
 const ContactInputFormBelowDesktop = () => {
     return (
-        <div className="flex flex-col w-10/12 md:w-6/12 lg:w-8/12 h-full mx-auto customAlbertColor200">
-            <h1 className="font-Cinzel text-lg md:text-2xl">Contact form</h1>
-            <label className="mt-4 font-Raleway">Your Name: <br /> 
+        <div className="flex flex-col w-10/12 md:w-6/12 lg:w-8/12 h-full mx-auto customAlbertColor200 customFont-codec-light">
+            <h1 className="text-lg md:text-2xl">Contact form</h1>
+            <label className="mt-4">Your Name: <br /> 
                 <input className="w-full rounded-sm border border-blue-500 focus:outline-none" type="text" name="name" />
             </label>   
-            <label className="mt-4 font-Raleway">Your Email: <br /> 
+            <label className="mt-4">Your Email: <br /> 
                 <input className="w-full rounded-sm border border-blue-500 focus:outline-none" type="text" name="email" />
             </label>   
-            <label className="mt-4 font-Raleway">Message: <br /> 
+            <label className="mt-4">Message: <br /> 
                 <textarea className="w-full lg:w-8/12 h-20 rounded-sm border border-blue-500 focus:outline-none" type="text" name="message" />
             </label>   
             <button type="submit" className="mt-6 md:mt-10 w-full text-white rounded-sm hover:bg-blue-400 bg-blue-500">Send</button>
@@ -95,12 +95,12 @@ const Contact = () => {
                         }
                     </div>
                 </form>
-                <div className="mt-8 lg:mt-12 lg:w-4/12 customAlbertColor200">
+                <div className="mt-8 lg:mt-12 lg:w-4/12 customAlbertColor200 customFont-codec-light">
                     <div className="flex flex-col w-10/12 md:w-5/12 lg:w-10/12 h-full mx-auto lg:m-0">
-                        <h1 className="font-Cinzel text-lg md:text-xl lg:text-2xl">Contact Information</h1>
-                        <div className="text-md md:text-lg lg:text-base font-Raleway mt-2 lg:mt-6 xl:mt-10"><i className="fa fa fa-compass pr-2" aria-hidden="true"></i> Makati Philippines</div>
-                        <div className="text-md md:text-lg lg:text-base font-Raleway mt-4"><i className="fa fa fa-envelope  pr-1" aria-hidden="true"></i> mail@gualbertsansual.com</div>
-                        <div className="text-md md:text-lg lg:text-base font-Raleway mt-4"><i className="fa fa-phone-square pr-1" aria-hidden="true"></i> +63(927)075-2827</div>
+                        <h1 className="text-lg md:text-xl lg:text-2xl">Contact Information</h1>
+                        <div className="text-md md:text-lg lg:text-base mt-2 lg:mt-6 xl:mt-10"><i className="fa fa fa-compass pr-2" aria-hidden="true"></i> Makati Philippines</div>
+                        <div className="text-md md:text-lg lg:text-base mt-4"><i className="fa fa fa-envelope  pr-1" aria-hidden="true"></i> mail@gualbertsansual.com</div>
+                        <div className="text-md md:text-lg lg:text-base customFont-dubai mt-4"><i className="fa fa-phone-square pr-1" aria-hidden="true"></i> +63(927)075-2827</div>
                     </div>
                 </div>
             </main>
@@ -124,8 +124,12 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="text-center lg:w-4/12  pt-8 text-xs customAlbertColor200 mx-auto">
-                        2020 - 2021 <span className="text-xs">©</span> Gualbertsan Sual. All rights reserved
-                        <p>Site by Marco Butalid</p>
+                        <span className="customFont-dubai pr-2">2020 - 2021</span> 
+                        <span className="text-xs pr-2">©</span> 
+                        <span className="customFont-codec-light">Gualbertsan Sual. All rights reserved</span>
+                        <p className="customFont-codec-light">
+                            Site by Marco Butalid
+                        </p>
                     </div>
                 </div>
             </footer>
