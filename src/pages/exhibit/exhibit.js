@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '../../layout/navbar/navbar';
 
+import Section1 from './sections/section1';
+
 const Exhibit = () => {
     return ( 
         <div>
@@ -9,7 +11,8 @@ const Exhibit = () => {
                 <Navbar showGual={true} isRegNav={true} />
             </header>
             <main className='content'>
-
+                <Section1 />
+                <br /> <br />
             </main>
         </div>
      );

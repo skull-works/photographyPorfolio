@@ -1,0 +1,12 @@
+.customHingaImage {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .customHingaImage {
+        position: absolute;
+        bottom: 0;
+        max-width: 380px;
+    }
+}
