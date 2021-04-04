@@ -14,7 +14,7 @@ import Page1 from '../pages/works/page1/index';
 import './styles.css';
 
 // Not in use
-// import Artist from '../pages/artist/artist';
+import Artist from '../pages/artist/artist';
 // import Hide from '../pages/hide-content/hide'; // HIDE CONTENT VERSION
 
 const Routes = () => {
@@ -43,9 +43,11 @@ const Routes = () => {
                     <Page1 />
                 </Route>
                 
-                {/* <Route path='/artist' component={Artist} />
                 <Route path='/artist/:id' component={Artist} />
-                <Route path='/VirtualExhibit' component={Works} /> */}
+                <Route path='/artist' component={Artist} />
+
+            
+                {/* <Route path='/VirtualExhibit' component={Works} /> */}
 
 
                 {/* HIDE CONTENT VERSION */}

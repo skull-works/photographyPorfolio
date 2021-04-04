@@ -1,3 +1,29 @@
+.customMaxWidth {
+    max-width: 420px;
+}
+
+.customSquareContainerSection2 {
+    width:30%;
+    position: relative;
+}
+
+.customSquareContainerSection2::after {
+    content: "";
+    display: block;
+    padding-top: 62%;
+}
+
+.customSquareContainerSection3{
+    width:30%;
+    position: relative;
+}
+
+.customSquareContainerSection3::after{
+    content: "";
+    display: block;
+    padding-top: 162%;
+}
+
 .customHingaImage {
     width: 100%;
     max-width: 400px;
