@@ -144,7 +144,7 @@ const Bio = () => {
                             <img className='customSquare-content' src={Albert3} alt="albert1" />
                             <p className='customlabelPhoto1 customAlbertColor300 text-xs customFont-codec-light'>Photo by Michael Castillo</p>
                         </div>
-                        <div className='w-10/12 xs:w-full lg:w-8/12 mt-4 md:mt-10 lg:mt-0 mx-auto lg:pr-8 relative'>
+                        <div className='w-10/12 xs:w-full lg:w-8/12 mt-4 md:mt-10 lg:mt-0 mx-auto lg:pr-10 relative'>
                             <p className="text-justify">
                                 Since 2012, he has been certain about what he aspires to do
                                 in life–that is to create films and become a great filmmaker.
@@ -179,6 +179,30 @@ const Bio = () => {
                                 is a tale of an imaginative child who isn’t fortunate
                                 enough to attend school yet strives to find a way to learn.
                             </p>
+                            <br />
+                            <p className="text-justify customXlShow">
+                                The film advocates the right of every child to have access to education regardless of their social status. He wants his
+                                films to inspire and inform viewers about the prevalent issues in society that are often being talked about.
+                            </p>
+                            <p className="text-justify customXllShow">
+                                The film advocates the right of every child to have access to education regardless of their social status. He wants his
+                                films to inspire and inform viewers about the prevalent issues in society that are often being talked about.
+                                Last July 2019, he was invited to showcase this film during the State of the Youth Address 2019 of the Southern Tagalog Youth Parliament.
+                                It was held at the University of the Philippines Los Banos – College of Arts and Sciences (UPLB-CAS) auditorium where he was
+                                also the guest speaker. He talked about human rights and the importance of education along with other distinguished
+                                personalities, namely Sarah Elago, Bryan Ezon Gonzales, and Samira Gutoc.
+                            </p>
+                            <p className="text-justify customXlllShow">
+                                The film advocates the right of every child to have access to education regardless of their social status. He wants his
+                                films to inspire and inform viewers about the prevalent issues in society that are often being talked about. Last July 2019,
+                                he was invited to showcase this film during the State of the Youth Address 2019 of the Southern Tagalog Youth Parliament.
+                                It was held at the University of the Philippines Los Banos – College of Arts and Sciences (UPLB-CAS) auditorium where he was
+                                also the guest speaker. He talked about human rights and the importance of education along with other distinguished
+                                personalities, namely Sarah Elago, Bryan Ezon Gonzales, and Samira Gutoc.  He found his passion for weaving stories that are inspired by his circumstances, relationships, and the people around him.
+                                “I vent my feelings out through film and tell myself that everything will be alright,” he said. He finds peace and comfort
+                                whenever he expresses himself through his chosen craft.
+                            </p>
+
                         </div>
                     </div>
                     <div className='w-10/12 xs:w-full lg:mt-0 mx-auto relative'>
@@ -190,7 +214,7 @@ const Bio = () => {
                             enough to attend school yet strives to find a way to learn.
                         </p>
                         <br />
-                        <p className="text-justify">
+                        <p className="text-justify noShow">
                             The film advocates the right of every child to have access to education regardless of their social status. He wants his
                             films to inspire and inform viewers about the prevalent issues in society that are often being talked about. Last July 2019,
                             he was invited to showcase this film during the State of the Youth Address 2019 of the Southern Tagalog Youth Parliament.
@@ -198,17 +222,34 @@ const Bio = () => {
                             also the guest speaker. He talked about human rights and the importance of education along with other distinguished
                             personalities, namely Sarah Elago, Bryan Ezon Gonzales, and Samira Gutoc.
                         </p>
-                        <br />
-                        <p className="text-justify">
+                        <p className="text-justify customXlShow">
+                            Last July 2019,
+                            he was invited to showcase this film during the State of the Youth Address 2019 of the Southern Tagalog Youth Parliament.
+                            It was held at the University of the Philippines Los Banos – College of Arts and Sciences (UPLB-CAS) auditorium where he was
+                            also the guest speaker. He talked about human rights and the importance of education along with other distinguished
+                            personalities, namely Sarah Elago, Bryan Ezon Gonzales, and Samira Gutoc.
+                        </p>
+
+                        <br className="customXlllNoShow" />
+                        <p className="text-justify customXlllNoShow">
                             He found his passion for weaving stories that are inspired by his circumstances, relationships, and the people around him.
                             “I vent my feelings out through film and tell myself that everything will be alright,” he said. He finds peace and comfort
                             whenever he expresses himself through his chosen craft. Truly, it is important to find an avenue to share and express oneself.
                             For Gualbertsan, he found his outlet through the art of filmmaking; in crafting stories, capturing people’s emotions, and
                             captivating the souls of his audience.
                         </p>
-                        <br />
-                        <p className="text-justify">
+                        <br className="customXlllNoShow"/>
+                        <p className="text-justify customXlllNoShow">
                             The story of this talented young man vividly reflects the values of courage and determination. Gualbertsan braved to
+                            follow and continue his long-time dream and persevered to slowly build a name for himself. He was asked this question:
+                            “What does it feel like to become a filmmaker?” He said, “It feels as if I can do whatever I want.” Following the trail of his passion
+                            allowed him to feel limitless and attain a sense of fulfillment. Indeed, nothing is more rewarding than going after what your
+                            heart desires while connecting to the hearts of others at the same time.
+                        </p>
+                        <p className="text-justify customXlllShow">
+                            Truly, it is important to find an avenue to share and express oneself.
+                            For Gualbertsan, he found his outlet through the art of filmmaking; in crafting stories, capturing people’s emotions, and
+                            captivating the souls of his audience. The story of this talented young man vividly reflects the values of courage and determination. Gualbertsan braved to
                             follow and continue his long-time dream and persevered to slowly build a name for himself. He was asked this question:
                             “What does it feel like to become a filmmaker?” He said, “It feels as if I can do whatever I want.” Following the trail of his passion
                             allowed him to feel limitless and attain a sense of fulfillment. Indeed, nothing is more rewarding than going after what your

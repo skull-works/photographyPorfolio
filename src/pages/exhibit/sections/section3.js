@@ -7,7 +7,9 @@ import Eloi2 from '../../../images/ArtistPhotos/2Eloi.jpg';
 import Jay2 from '../../../images/ArtistPhotos/2Jay.jpg';
 import Clars2 from '../../../images/ArtistPhotos/2Clars.jpg';
 import Albert2 from '../../../images/ArtistPhotos/2Albert.jpg';
-import Guest from '../../../images/ArtistPhotos/guest.jpg';
+import Guest from '../../../images/ArtistPhotos/guest_new.png';
+
+import './section3.css';
 
 const Section3 = () => {
     return (
@@ -47,8 +49,19 @@ const Section3 = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full sm:w-8/12 mt-6 mx-auto pt-40vh relative">
-                <img className="absolute top-0 left-0 object-contain w-full h-full" src={Guest} alt="sample" />
+            <div className="w-full sm:w-10/12 lg:w-10/12 custom__guest-performer__container">
+                <div className="custom__guest-performer__text">
+                    <h1 className="font-Cinzel below__lg">GUEST PERFORMER</h1>
+                    <div className="guest__text">
+                        <h1 className="font-Cinzel above__lg">GUEST</h1>
+                    </div>
+                    <div className="performer__text">
+                        <h1 className="font-Cinzel above__lg">PERFORMER</h1>
+                    </div>
+                </div>
+                <div className="custom__guest-performer-image__container">
+                    <img className="absolute top-0 left-0 object-contain w-full h-full" src={Guest} alt="sample" />
+                </div>
             </div>
         </div>
      );
