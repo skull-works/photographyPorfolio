@@ -7,14 +7,14 @@ import logo from '../../images/LOGO2.png';
 
 
 const RegularNavbar = ({ showGual }) => {
-    const links = 'ml-2 pr-4 hover:text-green-300';
+    const links = 'ml-2 pr-8 hover:text-green-300 font-bold';
 
     return (
-        <nav className='w-10/12 h-full mx-auto relative text-xss xs:text-xs customAlbertColor200 customFont-codec-bold z-20'>
+        <nav className='w-10/12 h-full mx-auto relative text-xss xs:text-xs customAlbertColor200 font-Raleway z-20'>
             <ul className='flex flex-row absolute bottom-0'>
                 { showGual ?
                     <Link to='/'>
-                        <li className='pr-4 hover:text-green-300'>
+                        <li className='pr-4 hover:text-green-300 font-bold'>
                             GUALBERTSAN SUAL
                         </li>
                     </Link>
@@ -52,13 +52,13 @@ const RegularNavbar = ({ showGual }) => {
 
 const HomeNavbar = () => {
 
-    const links = 'ml-2 sm:pr-4 md:px-4 lg:px-8 xl:px-10vh float-right customFont-codec-bold customAlbertColor200 hover:text-green-300';
-    const lastLink = 'ml-2 md:pl-4 lg:pl-8 xl:pl-12 float-right customFont-codec-bold customAlbertColor200 hover:text-green-300';
+    const links = 'ml-2 sm:pr-4 md:px-4 lg:px-8 xl:px-10vh float-right font-Raleway font-bold customAlbertColor200 hover:text-green-300';
+    const lastLink = 'ml-2 md:pl-4 lg:pl-8 xl:pl-12 float-right font-Raleway font-bold customAlbertColor200 hover:text-green-300';
 
     return (
         <nav className='w-10/12 h-full mx-auto flex flex-row relative text-xss xs:text-xs z-20 customAlbertColor200'>
             <div className='w-7/12 h-35vh xs:h-full flex flex-wrap justify-center items-center sm:hidden'>
-                <div className='w-6/12 xs:w-8/12 mt-14vh xs:mt-6'>
+                <div className='w-10/12 xs:w-8/12 mt-10vh xs:mt-12 sm:mt-14vh'>
                     <img className="object-contain" src={logo} alt="logo" />
                 </div>
             </div>
