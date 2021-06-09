@@ -1,0 +1,47 @@
+.section1__image__container {
+    overflow: hidden;
+}
+
+.slideFromRight1 {
+    animation: right-to-left 1s ease-in-out;
+}
+
+.slideFromRight2 {
+    animation: right-to-left 1.8s ease-in-out;
+}
+
+.slideFromRight3 {
+    animation: right-to-left 2.4s ease-in-out;
+}
+  
+@keyframes right-to-left {
+    0% {
+      transform: translateX(90%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+}
+
+.slideFromLeft1 {
+    animation: left-to-right 1s ease-in-out;
+}
+
+.slideFromLeft2 {
+    animation: left-to-right 1.8s ease-in-out;
+}
+
+.slideFromLeft3 {
+    animation: left-to-right 2.4s ease-in-out;
+}
+
+
+@keyframes left-to-right {
+    0% {
+      transform: translateX(-90%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+}
+

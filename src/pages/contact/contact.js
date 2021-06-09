@@ -73,7 +73,7 @@ const Contact = () => {
     }, [])
 
     return(
-        <div className='customAlbertColor100'>
+        <div className='customAlbertColor100 fadeIn'>
             <title>Contact</title>
             <header className='h-12vh'>
                 <Navbar showGual={true} isRegNav={true} />

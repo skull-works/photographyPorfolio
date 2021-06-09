@@ -33,15 +33,15 @@ const Section3 = () => {
                             <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Pat2} alt="sample"/>
                         </Link>
                         <Link to="/artist?is=EloiIgni"  className="customSquareContainerSection3 hover:opacity-75 cursor-pointer">
-                            <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Clars2} alt="sample"/>
+                            <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Eloi2} alt="sample"/>
                         </Link>
                     </div>
                     <div className="flex flex-row justify-evenly">
                         <Link  to="/artist?is=JayLacdao" className="customSquareContainerSection3 hover:opacity-75 cursor-pointer">
-                            <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Eloi2} alt="sample"/>
+                            <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Jay2} alt="sample"/>
                         </Link>
                         <Link  to="/artist?is=ClarissaLorenzo" className="customSquareContainerSection3 hover:opacity-75 cursor-pointer">
-                            <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Jay2} alt="sample"/>
+                            <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Clars2} alt="sample"/>
                         </Link>
                         <Link  to="/artist?is=GualbertsanSual" className="customSquareContainerSection3 hover:opacity-75 cursor-pointer">
                             <img className=" absolute top-0 left-0 object-cover w-full h-full" src={Albert2} alt="sample"/>

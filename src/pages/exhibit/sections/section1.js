@@ -4,6 +4,7 @@ import OnlineExhibitImage from '../../../images/MainPage/slideShow/A.jpg';
 import BehindTheSceneImage from '../../../images/MainPage/bigPics/4 big.jpg';
 
 import './styles.css';
+import './section1.css';
 
 // ------ Tailwind styles -----
     
@@ -57,15 +58,15 @@ const Section1 = () => {
     const ImageForDesktop = () => {
         if (windowWidth >= 1024) { 
             return (
-                <div className="flex flex-col w-6/12">
-                    <div className={`w-11/12 pt-12vh`}>
-                        <img className={`customMaxWidth mx-auto`} src={HingaImage} alt="HingaImage" />
+                <div className="flex flex-col w-6/12 section1__image__container">
+                    <div className={`w-11/12 pt-12vh slideFromRight1`}>
+                        <img className={`customMaxWidth mx-auto fadeIn`} src={HingaImage} alt="HingaImage" />
                     </div>
-                    <div className={`w-11/12 pt-6`}>
-                        <img className={`customMaxWidth mx-auto`} src={OnlineExhibitImage} alt="OnlineExhibitImage" />
+                    <div className={`w-11/12 pt-6 slideFromRight2`}>
+                        <img className={`customMaxWidth mx-auto fadeIn`} src={OnlineExhibitImage} alt="OnlineExhibitImage" />
                     </div>
-                    <div className={`w-11/12 pt-6`}>
-                        <img className={`customMaxWidth mx-auto`} src={BehindTheSceneImage} alt="BehindTheSceneImage" />
+                    <div className={`w-11/12 pt-6 slideFromRight3`}>
+                        <img className={`customMaxWidth mx-auto fadeIn`} src={BehindTheSceneImage} alt="BehindTheSceneImage" />
                     </div>
                 </div>
             )
@@ -77,7 +78,7 @@ const Section1 = () => {
     return (
         <div className="Section1Wrapper lg:w-11/12 xl:w-10/12 flex lg:flex-row mx-auto customAlbertColor200">
             <div className="lg:w-6/12 customAlbertColor200">
-                <div className="PartHinga w-10/12 lg:w-full mx-auto pt-10 flex flex-col md:flex-row">
+                <div className="PartHinga w-10/12 lg:w-full mx-auto pt-10 flex flex-col md:flex-row slideFromLeft1">
                     <div className={`${Part1_Md} ${Part1_Lg}`} >
                         <h3 className={`${textHeaders_Mobile} ${textHeaders_Md} ${textHeaders_Lg}`}>HINGA</h3>
                         <h3 className={`${textHeaders2nd_Mobile} ${textHeaders2nd_Md} ${textHeaders2nd_Lg}`}>A Virtual Multimedia Exhibit</h3>
@@ -91,7 +92,7 @@ const Section1 = () => {
                     </div>
                     <ImageBelowDesktop src={HingaImage} alt="HingaImage"/>
                 </div>
-                <div className="PartHinga w-10/12 lg:w-full mx-auto pt-10 lg:pt-16 flex flex-col md:flex-row">
+                <div className="PartHinga w-10/12 lg:w-full mx-auto pt-10 lg:pt-16 flex flex-col md:flex-row slideFromLeft2">
                     <div className={`${Part1_Md} ${Part1_Lg}`} >
                         <h3 className={`${textHeaders_Mobile} ${textHeaders_Md} ${textHeaders_Lg}`}>Online Exhibit</h3>
                         <div className={`${textParagraphContainer_Md} ${textParagraphContainer_Lg}`}>
@@ -105,7 +106,7 @@ const Section1 = () => {
                     </div>
                     <ImageBelowDesktop css={'lg:mt-10'} src={OnlineExhibitImage} alt="OnlineExhibitImage"/>
                 </div>
-                <div className="PartHinga w-10/12 lg:w-full mx-auto pt-10 flex flex-col md:flex-row">
+                <div className="PartHinga w-10/12 lg:w-full mx-auto pt-10 flex flex-col md:flex-row slideFromLeft3">
                     <div className={`${Part1_Md} ${Part1_Lg}`} >
                         <h3 className={`${textHeaders_Mobile} ${textHeaders_Md} ${textHeaders_Lg}`}>BEHIND THE SCENE</h3>
                         <div className={`${Grp3textParagraphContainer_Md} ${textParagraphContainer_Lg}`}>

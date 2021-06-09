@@ -8,7 +8,7 @@ import Section3 from './sections/section3';
 
 const Exhibit = () => {
     return (
-        <div className="customAlbertColor100">
+        <div className="customAlbertColor100 fadeIn">
             <div>
                 <title>Exhibit</title>
                 <header className='h-10vh sm:h-12vh'>

@@ -11,7 +11,7 @@ import './style.css';
 
 const Bio = () => {
     return ( 
-        <div className='w-full h-100vh overflow-y-auto customAlbertColor100'>
+        <div className='w-full h-100vh overflow-y-auto customAlbertColor100 fadeIn'>
             <title>BIO | Gualbertsan Sual</title>
             <header className='h-12vh'>
                 <Navbar showGual={true} isRegNav={true} />

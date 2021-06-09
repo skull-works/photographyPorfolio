@@ -50,7 +50,7 @@ const Home = () => {
     };
 
     return(
-        <div className='customAlbertColor100 h-100vh'>  
+        <div className='customAlbertColor100 h-100vh fadeIn'>  
             <title>Gualbertsan Sual</title>
             <header className='h-35vh sm:h-20vh'>
                 <Navbar showGual={false} isRegNav={false} />
