@@ -13,7 +13,7 @@ const Jacob = () => {
             <div className="h-50vh xs:h-54vh sm:h-60vh md:h-100vh md:w-5/12">
                 <div className='rectangle-wrapper h-50vh w-7/12  mx-auto pl-0 md:pl-0 pt-8 xss:pt-8 sm:pt-6 md:pt-20'>
                     <div className='rectangle'>
-                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/2Jay.jpg')} alt="sample"/>
+                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/1Jay.jpg')} alt="sample"/>
                     </div>
                 </div>
             </div>

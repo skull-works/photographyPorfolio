@@ -15,7 +15,7 @@ const Pat = () => {
                 <div className='rectangle-wrapper h-50vh w-7/12  mx-auto pl-0 md:pl-0 pt-8 xss:pt-8 sm:pt-6 md:pt-20'>
                     <div className='rectangle'>
                         {/* <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/Soon.png')} alt="sample"/> */}
-                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/2pat.jpg')} alt="sample"/>
+                        <img className=" absolute top-0 left-0 object-cover w-full h-full" src={require('../../../images/ArtistPhotos/1pat.jpg')} alt="sample"/>
                     </div>
                 </div>
             </div>
