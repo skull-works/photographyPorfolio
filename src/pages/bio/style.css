@@ -57,3 +57,47 @@
     color: white;
     text-align: center;
 }
+
+.customXlShow {
+    display: none;
+}
+
+.customXllShow {
+    display: none;
+}
+
+.customXlllShow {
+    display: none
+}
+
+@media only screen and (min-width: 1385px) {
+    .noShow {
+        display: none;
+    }
+
+    .customXlShow {
+        display: block
+    }
+}
+
+@media only screen and (min-width: 1530px) {
+    .customXlShow{
+        display: none;
+    }
+    .customXllShow {
+        display: block
+    }
+}
+
+
+@media only screen and (min-width: 1750px) {
+    .customXllShow{
+        display: none;
+    }
+    .customXlllNoShow {
+        display: none;
+    }
+    .customXlllShow {
+        display: block
+    }
+}

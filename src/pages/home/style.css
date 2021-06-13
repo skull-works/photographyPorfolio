@@ -11,7 +11,37 @@
 
 @media only screen and (min-width: 1024px) {
     .albertName {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
+        letter-spacing: 1.5rem;
+   }
+}
+
+@media only screen and (min-width: 1100px) {
+    .albertName {
+        font-size: 1.7rem;
+        letter-spacing: 1.5rem;
+   }
+}
+
+
+@media only screen and (min-width: 1300px) {
+    .albertName {
+        font-size: 2.7vw;
+        letter-spacing: 1.5rem;
+   }
+}
+
+
+@media only screen and (min-width: 1500px) {
+    .albertName {
+        font-size: 50px;
+        letter-spacing: 1.5rem;
+   }
+}
+
+@media only screen and (min-width: 1630px) {
+    .albertName {
+        font-size: 60px;
         letter-spacing: 1.5rem;
    }
 }

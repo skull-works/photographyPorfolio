@@ -9,8 +9,10 @@ import './style.css';
 const AlbertNameDesktop = () => {
 
     return (
-        <div className='hidden sm:block w-full xs:h-full xs:py-27vh lg:py-32'>
-            <p className='albertName customAlbertColor200 customFont-codec-light'>gualbertsan <span className='customAlbertColor300'>sual</span></p>
+        <div className='hidden w-full xs:h-full sm:pt-40 lg:pt-25vh sm:flex flex-wrap'>
+            <div>
+                <p className='albertName customAlbertColor200 customFont-codec-light'>gualbertsan <span className='customAlbertColor300'>sual</span></p>
+            </div>
             <div className='h-full mt-2'>
                 <ul className='invisible sm:visible text-xs lg:text-sm customAlbertColor200 leading-6'>
                     <li>
@@ -48,7 +50,7 @@ const Home = () => {
     };
 
     return(
-        <div className='customAlbertColor100'>  
+        <div className='customAlbertColor100 h-100vh fadeIn'>  
             <title>Gualbertsan Sual</title>
             <header className='h-35vh sm:h-20vh'>
                 <Navbar showGual={false} isRegNav={false} />
@@ -58,7 +60,7 @@ const Home = () => {
                     <AlbertNameDesktop />
                     <AlbertNameMobile />
                     <div className='invisible sm:visible sm:w-6/12 xs:h-full flex flex-wrap justify-center items-center'>
-                        <div className='w-3/12 xs:w-3/6'>
+                        <div className='w-3/12 xs:w-3/6 sm:w-full md:w-10/12 lg:w-3/6'>
                             <img className="object-contain" src={logo} alt="logo" />
                         </div>
                     </div>
